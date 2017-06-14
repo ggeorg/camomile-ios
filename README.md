@@ -1,2 +1,2 @@
 # camomile-ios
-UIKit wrapper for j2objc
+iOS UI for Java to Objective-C translation tool (j2objc)
