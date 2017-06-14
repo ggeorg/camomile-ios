@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA16B141EE820AC00E52145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA16B131EE820AC00E52145 /* main.m */; };
+		CCA16B171EE820AC00E52145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA16B161EE820AC00E52145 /* AppDelegate.m */; };
+		CCA16B1F1EE820AC00E52145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA16B1E1EE820AC00E52145 /* Assets.xcassets */; };
+		CCA16B331EE83FCC00E52145 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA16B321EE83FCC00E52145 /* libiconv.tbd */; };
+		CCDF753E1EF1788700EDCF25 /* MainViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF750C1EF1788700EDCF25 /* MainViewController.java */; };
+		CCDF753F1EF1788700EDCF25 /* MainViewController2.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF750D1EF1788700EDCF25 /* MainViewController2.java */; };
+		CCDF75401EF1788700EDCF25 /* CGPoint.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75131EF1788700EDCF25 /* CGPoint.java */; };
+		CCDF75411EF1788700EDCF25 /* CGRect.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75141EF1788700EDCF25 /* CGRect.java */; };
+		CCDF75421EF1788700EDCF25 /* CGSize.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75151EF1788700EDCF25 /* CGSize.java */; };
+		CCDF75431EF1788700EDCF25 /* NSError.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75171EF1788700EDCF25 /* NSError.java */; };
+		CCDF75441EF1788700EDCF25 /* NSObject.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75181EF1788700EDCF25 /* NSObject.java */; };
+		CCDF75451EF1788700EDCF25 /* NSObjectArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75191EF1788700EDCF25 /* NSObjectArray.java */; };
+		CCDF75461EF1788700EDCF25 /* NSURL.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751A1EF1788700EDCF25 /* NSURL.java */; };
+		CCDF75471EF1788700EDCF25 /* NSURLRequest.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751B1EF1788700EDCF25 /* NSURLRequest.java */; };
+		CCDF75481EF1788700EDCF25 /* NSLayoutConstraint.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751D1EF1788700EDCF25 /* NSLayoutConstraint.java */; };
+		CCDF75491EF1788700EDCF25 /* NSLayoutConstraintArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751E1EF1788700EDCF25 /* NSLayoutConstraintArray.java */; };
+		CCDF754A1EF1788700EDCF25 /* NSLayoutDimension.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751F1EF1788700EDCF25 /* NSLayoutDimension.java */; };
+		CCDF754B1EF1788700EDCF25 /* NSLayoutXAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75201EF1788700EDCF25 /* NSLayoutXAxisAnchor.java */; };
+		CCDF754C1EF1788700EDCF25 /* NSLayoutYAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75211EF1788700EDCF25 /* NSLayoutYAxisAnchor.java */; };
+		CCDF754D1EF1788700EDCF25 /* UIButton.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75221EF1788700EDCF25 /* UIButton.java */; };
+		CCDF754E1EF1788700EDCF25 /* UIColor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75231EF1788700EDCF25 /* UIColor.java */; };
+		CCDF754F1EF1788700EDCF25 /* UIControl.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75241EF1788700EDCF25 /* UIControl.java */; };
+		CCDF75501EF1788700EDCF25 /* UIControlEvents.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75251EF1788700EDCF25 /* UIControlEvents.java */; };
+		CCDF75511EF1788700EDCF25 /* UIEvent.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75261EF1788700EDCF25 /* UIEvent.java */; };
+		CCDF75521EF1788700EDCF25 /* UIEventHandler.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75271EF1788700EDCF25 /* UIEventHandler.java */; };
+		CCDF75531EF1788700EDCF25 /* UILabel.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75281EF1788700EDCF25 /* UILabel.java */; };
+		CCDF75541EF1788700EDCF25 /* UIResponder.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75291EF1788700EDCF25 /* UIResponder.java */; };
+		CCDF75551EF1788700EDCF25 /* UITextField.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752A1EF1788700EDCF25 /* UITextField.java */; };
+		CCDF75561EF1788700EDCF25 /* UIView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752B1EF1788700EDCF25 /* UIView.java */; };
+		CCDF75571EF1788700EDCF25 /* UIViewArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752C1EF1788700EDCF25 /* UIViewArray.java */; };
+		CCDF75581EF1788700EDCF25 /* UIViewAutoresizing.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752D1EF1788700EDCF25 /* UIViewAutoresizing.java */; };
+		CCDF75591EF1788700EDCF25 /* UIViewContentMode.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752E1EF1788700EDCF25 /* UIViewContentMode.java */; };
+		CCDF755A1EF1788700EDCF25 /* UIViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752F1EF1788700EDCF25 /* UIViewController.java */; };
+		CCDF755B1EF1788700EDCF25 /* UIViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75311EF1788700EDCF25 /* UIViewControllerBase.m */; };
+		CCDF755C1EF1788700EDCF25 /* WKFrameInfo.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75331EF1788700EDCF25 /* WKFrameInfo.java */; };
+		CCDF755D1EF1788700EDCF25 /* WKNavigation.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75341EF1788700EDCF25 /* WKNavigation.java */; };
+		CCDF755E1EF1788700EDCF25 /* WKNavigationAction.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75351EF1788700EDCF25 /* WKNavigationAction.java */; };
+		CCDF755F1EF1788700EDCF25 /* WKNavigationActionPolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75361EF1788700EDCF25 /* WKNavigationActionPolicy.java */; };
+		CCDF75601EF1788700EDCF25 /* WKNavigationDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75371EF1788700EDCF25 /* WKNavigationDelegate.java */; };
+		CCDF75611EF1788700EDCF25 /* WKNavigationResponse.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75381EF1788700EDCF25 /* WKNavigationResponse.java */; };
+		CCDF75621EF1788700EDCF25 /* WKNavigationResponsePolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75391EF1788700EDCF25 /* WKNavigationResponsePolicy.java */; };
+		CCDF75631EF1788700EDCF25 /* WKSecurityOrigin.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753A1EF1788700EDCF25 /* WKSecurityOrigin.java */; };
+		CCDF75641EF1788700EDCF25 /* WKUIDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753B1EF1788700EDCF25 /* WKUIDelegate.java */; };
+		CCDF75651EF1788700EDCF25 /* WKWebView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753C1EF1788700EDCF25 /* WKWebView.java */; };
+		CCDF75661EF1788700EDCF25 /* WKWebViewConfiguration.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753D1EF1788700EDCF25 /* WKWebViewConfiguration.java */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		CCA16B291EE82D5100E52145 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.java;
+			isEditable = 1;
+			outputFiles = (
+				"${DERIVED_FILE_DIR}/${INPUT_FILE_BASE}.h",
+				"${DERIVED_FILE_DIR}/${INPUT_FILE_BASE}.m",
+			);
+			script = "if [ ! -f \"${J2OBJC_HOME}/j2objc\" ]; then echo \"J2OBJC_HOME is not correctly defined, currently set to '${J2OBJC_HOME}'\"; exit 1; fi;\n\"${J2OBJC_HOME}/j2objc\" -d ${DERIVED_FILES_DIR} -sourcepath ../src --no-package-directories -g ${INPUT_FILE_PATH};";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		CCA16B0F1EE820AC00E52145 /* j2objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = j2objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA16B131EE820AC00E52145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA16B151EE820AC00E52145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA16B161EE820AC00E52145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA16B1E1EE820AC00E52145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA16B231EE820AC00E52145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA16B321EE83FCC00E52145 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CCDF750C1EF1788700EDCF25 /* MainViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController.java; sourceTree = "<group>"; };
+		CCDF750D1EF1788700EDCF25 /* MainViewController2.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController2.java; sourceTree = "<group>"; };
+		CCDF75131EF1788700EDCF25 /* CGPoint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGPoint.java; sourceTree = "<group>"; };
+		CCDF75141EF1788700EDCF25 /* CGRect.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGRect.java; sourceTree = "<group>"; };
+		CCDF75151EF1788700EDCF25 /* CGSize.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGSize.java; sourceTree = "<group>"; };
+		CCDF75171EF1788700EDCF25 /* NSError.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSError.java; sourceTree = "<group>"; };
+		CCDF75181EF1788700EDCF25 /* NSObject.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObject.java; sourceTree = "<group>"; };
+		CCDF75191EF1788700EDCF25 /* NSObjectArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObjectArray.java; sourceTree = "<group>"; };
+		CCDF751A1EF1788700EDCF25 /* NSURL.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURL.java; sourceTree = "<group>"; };
+		CCDF751B1EF1788700EDCF25 /* NSURLRequest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURLRequest.java; sourceTree = "<group>"; };
+		CCDF751D1EF1788700EDCF25 /* NSLayoutConstraint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraint.java; sourceTree = "<group>"; };
+		CCDF751E1EF1788700EDCF25 /* NSLayoutConstraintArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraintArray.java; sourceTree = "<group>"; };
+		CCDF751F1EF1788700EDCF25 /* NSLayoutDimension.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutDimension.java; sourceTree = "<group>"; };
+		CCDF75201EF1788700EDCF25 /* NSLayoutXAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutXAxisAnchor.java; sourceTree = "<group>"; };
+		CCDF75211EF1788700EDCF25 /* NSLayoutYAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutYAxisAnchor.java; sourceTree = "<group>"; };
+		CCDF75221EF1788700EDCF25 /* UIButton.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButton.java; sourceTree = "<group>"; };
+		CCDF75231EF1788700EDCF25 /* UIColor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIColor.java; sourceTree = "<group>"; };
+		CCDF75241EF1788700EDCF25 /* UIControl.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControl.java; sourceTree = "<group>"; };
+		CCDF75251EF1788700EDCF25 /* UIControlEvents.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControlEvents.java; sourceTree = "<group>"; };
+		CCDF75261EF1788700EDCF25 /* UIEvent.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEvent.java; sourceTree = "<group>"; };
+		CCDF75271EF1788700EDCF25 /* UIEventHandler.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEventHandler.java; sourceTree = "<group>"; };
+		CCDF75281EF1788700EDCF25 /* UILabel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UILabel.java; sourceTree = "<group>"; };
+		CCDF75291EF1788700EDCF25 /* UIResponder.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIResponder.java; sourceTree = "<group>"; };
+		CCDF752A1EF1788700EDCF25 /* UITextField.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UITextField.java; sourceTree = "<group>"; };
+		CCDF752B1EF1788700EDCF25 /* UIView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIView.java; sourceTree = "<group>"; };
+		CCDF752C1EF1788700EDCF25 /* UIViewArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewArray.java; sourceTree = "<group>"; };
+		CCDF752D1EF1788700EDCF25 /* UIViewAutoresizing.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewAutoresizing.java; sourceTree = "<group>"; };
+		CCDF752E1EF1788700EDCF25 /* UIViewContentMode.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewContentMode.java; sourceTree = "<group>"; };
+		CCDF752F1EF1788700EDCF25 /* UIViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewController.java; sourceTree = "<group>"; };
+		CCDF75301EF1788700EDCF25 /* UIViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerBase.h; sourceTree = "<group>"; };
+		CCDF75311EF1788700EDCF25 /* UIViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerBase.m; sourceTree = "<group>"; };
+		CCDF75331EF1788700EDCF25 /* WKFrameInfo.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKFrameInfo.java; sourceTree = "<group>"; };
+		CCDF75341EF1788700EDCF25 /* WKNavigation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigation.java; sourceTree = "<group>"; };
+		CCDF75351EF1788700EDCF25 /* WKNavigationAction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationAction.java; sourceTree = "<group>"; };
+		CCDF75361EF1788700EDCF25 /* WKNavigationActionPolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationActionPolicy.java; sourceTree = "<group>"; };
+		CCDF75371EF1788700EDCF25 /* WKNavigationDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationDelegate.java; sourceTree = "<group>"; };
+		CCDF75381EF1788700EDCF25 /* WKNavigationResponse.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponse.java; sourceTree = "<group>"; };
+		CCDF75391EF1788700EDCF25 /* WKNavigationResponsePolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponsePolicy.java; sourceTree = "<group>"; };
+		CCDF753A1EF1788700EDCF25 /* WKSecurityOrigin.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKSecurityOrigin.java; sourceTree = "<group>"; };
+		CCDF753B1EF1788700EDCF25 /* WKUIDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKUIDelegate.java; sourceTree = "<group>"; };
+		CCDF753C1EF1788700EDCF25 /* WKWebView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebView.java; sourceTree = "<group>"; };
+		CCDF753D1EF1788700EDCF25 /* WKWebViewConfiguration.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebViewConfiguration.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA16B0C1EE820AC00E52145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA16B331EE83FCC00E52145 /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA16B061EE820AC00E52145 = {
+			isa = PBXGroup;
+			children = (
+				CCA16C0D1EE9186700E52145 /* java */,
+				CCA16B111EE820AC00E52145 /* j2objc */,
+				CCA16B101EE820AC00E52145 /* Products */,
+				CCA16B311EE83FCC00E52145 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA16B101EE820AC00E52145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA16B0F1EE820AC00E52145 /* j2objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA16B111EE820AC00E52145 /* j2objc */ = {
+			isa = PBXGroup;
+			children = (
+				CCA16B151EE820AC00E52145 /* AppDelegate.h */,
+				CCA16B161EE820AC00E52145 /* AppDelegate.m */,
+				CCA16B1E1EE820AC00E52145 /* Assets.xcassets */,
+				CCA16B231EE820AC00E52145 /* Info.plist */,
+				CCA16B121EE820AC00E52145 /* Supporting Files */,
+			);
+			path = j2objc;
+			sourceTree = "<group>";
+		};
+		CCA16B121EE820AC00E52145 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA16B131EE820AC00E52145 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA16B311EE83FCC00E52145 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCA16B321EE83FCC00E52145 /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA16C0D1EE9186700E52145 /* java */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF750A1EF1788700EDCF25 /* src */,
+			);
+			name = java;
+			sourceTree = "<group>";
+		};
+		CCDF750A1EF1788700EDCF25 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF750B1EF1788700EDCF25 /* j2objc */,
+				CCDF750E1EF1788700EDCF25 /* org */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		CCDF750B1EF1788700EDCF25 /* j2objc */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF750C1EF1788700EDCF25 /* MainViewController.java */,
+				CCDF750D1EF1788700EDCF25 /* MainViewController2.java */,
+			);
+			path = j2objc;
+			sourceTree = "<group>";
+		};
+		CCDF750E1EF1788700EDCF25 /* org */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF750F1EF1788700EDCF25 /* chamomile */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		CCDF750F1EF1788700EDCF25 /* chamomile */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF75101EF1788700EDCF25 /* ios */,
+			);
+			path = chamomile;
+			sourceTree = "<group>";
+		};
+		CCDF75101EF1788700EDCF25 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF75111EF1788700EDCF25 /* core */,
+				CCDF75161EF1788700EDCF25 /* foundation */,
+				CCDF751C1EF1788700EDCF25 /* uikit */,
+				CCDF75321EF1788700EDCF25 /* webkit */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		CCDF75111EF1788700EDCF25 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF75121EF1788700EDCF25 /* graphics */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		CCDF75121EF1788700EDCF25 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF75131EF1788700EDCF25 /* CGPoint.java */,
+				CCDF75141EF1788700EDCF25 /* CGRect.java */,
+				CCDF75151EF1788700EDCF25 /* CGSize.java */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		CCDF75161EF1788700EDCF25 /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF75171EF1788700EDCF25 /* NSError.java */,
+				CCDF75181EF1788700EDCF25 /* NSObject.java */,
+				CCDF75191EF1788700EDCF25 /* NSObjectArray.java */,
+				CCDF751A1EF1788700EDCF25 /* NSURL.java */,
+				CCDF751B1EF1788700EDCF25 /* NSURLRequest.java */,
+			);
+			path = foundation;
+			sourceTree = "<group>";
+		};
+		CCDF751C1EF1788700EDCF25 /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF751D1EF1788700EDCF25 /* NSLayoutConstraint.java */,
+				CCDF751E1EF1788700EDCF25 /* NSLayoutConstraintArray.java */,
+				CCDF751F1EF1788700EDCF25 /* NSLayoutDimension.java */,
+				CCDF75201EF1788700EDCF25 /* NSLayoutXAxisAnchor.java */,
+				CCDF75211EF1788700EDCF25 /* NSLayoutYAxisAnchor.java */,
+				CCDF75221EF1788700EDCF25 /* UIButton.java */,
+				CCDF75231EF1788700EDCF25 /* UIColor.java */,
+				CCDF75241EF1788700EDCF25 /* UIControl.java */,
+				CCDF75251EF1788700EDCF25 /* UIControlEvents.java */,
+				CCDF75261EF1788700EDCF25 /* UIEvent.java */,
+				CCDF75271EF1788700EDCF25 /* UIEventHandler.java */,
+				CCDF75281EF1788700EDCF25 /* UILabel.java */,
+				CCDF75291EF1788700EDCF25 /* UIResponder.java */,
+				CCDF752A1EF1788700EDCF25 /* UITextField.java */,
+				CCDF752B1EF1788700EDCF25 /* UIView.java */,
+				CCDF752C1EF1788700EDCF25 /* UIViewArray.java */,
+				CCDF752D1EF1788700EDCF25 /* UIViewAutoresizing.java */,
+				CCDF752E1EF1788700EDCF25 /* UIViewContentMode.java */,
+				CCDF752F1EF1788700EDCF25 /* UIViewController.java */,
+				CCDF75301EF1788700EDCF25 /* UIViewControllerBase.h */,
+				CCDF75311EF1788700EDCF25 /* UIViewControllerBase.m */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		CCDF75321EF1788700EDCF25 /* webkit */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF75331EF1788700EDCF25 /* WKFrameInfo.java */,
+				CCDF75341EF1788700EDCF25 /* WKNavigation.java */,
+				CCDF75351EF1788700EDCF25 /* WKNavigationAction.java */,
+				CCDF75361EF1788700EDCF25 /* WKNavigationActionPolicy.java */,
+				CCDF75371EF1788700EDCF25 /* WKNavigationDelegate.java */,
+				CCDF75381EF1788700EDCF25 /* WKNavigationResponse.java */,
+				CCDF75391EF1788700EDCF25 /* WKNavigationResponsePolicy.java */,
+				CCDF753A1EF1788700EDCF25 /* WKSecurityOrigin.java */,
+				CCDF753B1EF1788700EDCF25 /* WKUIDelegate.java */,
+				CCDF753C1EF1788700EDCF25 /* WKWebView.java */,
+				CCDF753D1EF1788700EDCF25 /* WKWebViewConfiguration.java */,
+			);
+			path = webkit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA16B0E1EE820AC00E52145 /* j2objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA16B261EE820AC00E52145 /* Build configuration list for PBXNativeTarget "j2objc" */;
+			buildPhases = (
+				CCA16B0B1EE820AC00E52145 /* Sources */,
+				CCA16B0C1EE820AC00E52145 /* Frameworks */,
+				CCA16B0D1EE820AC00E52145 /* Resources */,
+			);
+			buildRules = (
+				CCA16B291EE82D5100E52145 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = j2objc;
+			productName = j2objc;
+			productReference = CCA16B0F1EE820AC00E52145 /* j2objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA16B071EE820AC00E52145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "VeraCloud Inc";
+				TargetAttributes = {
+					CCA16B0E1EE820AC00E52145 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ME833V5D8D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CCA16B0A1EE820AC00E52145 /* Build configuration list for PBXProject "j2objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA16B061EE820AC00E52145;
+			productRefGroup = CCA16B101EE820AC00E52145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA16B0E1EE820AC00E52145 /* j2objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA16B0D1EE820AC00E52145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA16B1F1EE820AC00E52145 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA16B0B1EE820AC00E52145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDF75541EF1788700EDCF25 /* UIResponder.java in Sources */,
+				CCDF75421EF1788700EDCF25 /* CGSize.java in Sources */,
+				CCDF753E1EF1788700EDCF25 /* MainViewController.java in Sources */,
+				CCDF75591EF1788700EDCF25 /* UIViewContentMode.java in Sources */,
+				CCDF75581EF1788700EDCF25 /* UIViewAutoresizing.java in Sources */,
+				CCDF75481EF1788700EDCF25 /* NSLayoutConstraint.java in Sources */,
+				CCDF75521EF1788700EDCF25 /* UIEventHandler.java in Sources */,
+				CCDF75651EF1788700EDCF25 /* WKWebView.java in Sources */,
+				CCDF75471EF1788700EDCF25 /* NSURLRequest.java in Sources */,
+				CCA16B171EE820AC00E52145 /* AppDelegate.m in Sources */,
+				CCDF755B1EF1788700EDCF25 /* UIViewControllerBase.m in Sources */,
+				CCDF75611EF1788700EDCF25 /* WKNavigationResponse.java in Sources */,
+				CCDF75661EF1788700EDCF25 /* WKWebViewConfiguration.java in Sources */,
+				CCDF754F1EF1788700EDCF25 /* UIControl.java in Sources */,
+				CCDF75571EF1788700EDCF25 /* UIViewArray.java in Sources */,
+				CCDF753F1EF1788700EDCF25 /* MainViewController2.java in Sources */,
+				CCDF75501EF1788700EDCF25 /* UIControlEvents.java in Sources */,
+				CCDF75441EF1788700EDCF25 /* NSObject.java in Sources */,
+				CCDF75531EF1788700EDCF25 /* UILabel.java in Sources */,
+				CCDF755E1EF1788700EDCF25 /* WKNavigationAction.java in Sources */,
+				CCDF75621EF1788700EDCF25 /* WKNavigationResponsePolicy.java in Sources */,
+				CCDF755C1EF1788700EDCF25 /* WKFrameInfo.java in Sources */,
+				CCDF754A1EF1788700EDCF25 /* NSLayoutDimension.java in Sources */,
+				CCDF75461EF1788700EDCF25 /* NSURL.java in Sources */,
+				CCA16B141EE820AC00E52145 /* main.m in Sources */,
+				CCDF755A1EF1788700EDCF25 /* UIViewController.java in Sources */,
+				CCDF75491EF1788700EDCF25 /* NSLayoutConstraintArray.java in Sources */,
+				CCDF754E1EF1788700EDCF25 /* UIColor.java in Sources */,
+				CCDF755D1EF1788700EDCF25 /* WKNavigation.java in Sources */,
+				CCDF75401EF1788700EDCF25 /* CGPoint.java in Sources */,
+				CCDF75451EF1788700EDCF25 /* NSObjectArray.java in Sources */,
+				CCDF75551EF1788700EDCF25 /* UITextField.java in Sources */,
+				CCDF75601EF1788700EDCF25 /* WKNavigationDelegate.java in Sources */,
+				CCDF75631EF1788700EDCF25 /* WKSecurityOrigin.java in Sources */,
+				CCDF75511EF1788700EDCF25 /* UIEvent.java in Sources */,
+				CCDF755F1EF1788700EDCF25 /* WKNavigationActionPolicy.java in Sources */,
+				CCDF754D1EF1788700EDCF25 /* UIButton.java in Sources */,
+				CCDF75411EF1788700EDCF25 /* CGRect.java in Sources */,
+				CCDF754C1EF1788700EDCF25 /* NSLayoutYAxisAnchor.java in Sources */,
+				CCDF75641EF1788700EDCF25 /* WKUIDelegate.java in Sources */,
+				CCDF75431EF1788700EDCF25 /* NSError.java in Sources */,
+				CCDF75561EF1788700EDCF25 /* UIView.java in Sources */,
+				CCDF754B1EF1788700EDCF25 /* NSLayoutXAxisAnchor.java in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCA16B241EE820AC00E52145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA16B251EE820AC00E52145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA16B271EE820AC00E52145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ME833V5D8D;
+				FRAMEWORK_SEARCH_PATHS = "${J2OBJC_HOME}/frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = j2objc/Info.plist;
+				J2OBJC_HOME = "/Users/ggeorg/Applications/j2objc-2.0";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${J2OBJC_HOME}/lib";
+				OTHER_LDFLAGS = "-ljre_emul";
+				PRODUCT_BUNDLE_IDENTIFIER = VeraCloud.j2objc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "${J2OBJC_HOME}/include ${DERIVED_FILES_DIR}";
+			};
+			name = Debug;
+		};
+		CCA16B281EE820AC00E52145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ME833V5D8D;
+				FRAMEWORK_SEARCH_PATHS = "${J2OBJC_HOME}/frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = j2objc/Info.plist;
+				J2OBJC_HOME = "/Users/ggeorg/Applications/j2objc-2.0";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "${J2OBJC_HOME}/lib";
+				OTHER_LDFLAGS = "-ljre_emul";
+				PRODUCT_BUNDLE_IDENTIFIER = VeraCloud.j2objc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USER_HEADER_SEARCH_PATHS = "${J2OBJC_HOME}/include ${DERIVED_FILES_DIR}";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA16B0A1EE820AC00E52145 /* Build configuration list for PBXProject "j2objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA16B241EE820AC00E52145 /* Debug */,
+				CCA16B251EE820AC00E52145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA16B261EE820AC00E52145 /* Build configuration list for PBXNativeTarget "j2objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA16B271EE820AC00E52145 /* Debug */,
+				CCA16B281EE820AC00E52145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA16B071EE820AC00E52145 /* Project object */;
+}
