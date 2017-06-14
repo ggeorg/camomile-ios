@@ -3,7 +3,7 @@ package org.chamomile.ios.uikit;
 import org.chamomile.ios.foundation.NSObject;
 
 /*-[
-#import "ChmViewControllerBase.h"
+#import "UIViewControllerBase.h"
  ]-*/
 
 /**
@@ -30,7 +30,8 @@ public abstract class UIViewController extends NSObject {
 
 	private native Object createNativeObj() /*-[
 	//@formatter:off
-		ChmViewControllerBase *viewController = [[ChmViewControllerBase alloc] initWithWrapper:self];
+		OrgChamomileIosUikitUIViewControllerBase *viewController = 
+			[[OrgChamomileIosUikitUIViewControllerBase alloc] initWithWrapper:self];
 		return viewController;
 	//formatter:on
 	]-*/;

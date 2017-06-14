@@ -6,15 +6,15 @@
 //  Copyright © 2017 VeraCloud Inc. All rights reserved.
 //
 
-#import "ChmViewControllerBase.h"
+#import "UIViewControllerBase.h"
 
-@interface ChmViewControllerBase ()
+@interface OrgChamomileIosUikitUIViewControllerBase ()
 
 @property (nonatomic, retain) OrgChamomileIosUikitUIViewController *wrapper;
 
 @end
 
-@implementation ChmViewControllerBase
+@implementation OrgChamomileIosUikitUIViewControllerBase
 
 - (id)initWithWrapper:(OrgChamomileIosUikitUIViewController *)wrapper {
     self = [super init];

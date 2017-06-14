@@ -10,7 +10,7 @@
 
 #import "UIViewController.h"
 
-@interface ChmViewControllerBase : UIViewController
+@interface OrgChamomileIosUikitUIViewControllerBase : UIViewController
 
 -(id)initWithWrapper:(OrgChamomileIosUikitUIViewController *)wrapper;
 

@@ -1,4 +1,4 @@
-package j2objc01;
+package j2objc;
 
 import org.chamomile.ios.uikit.UIEventHandler;
 import org.chamomile.ios.uikit.UIButton;
@@ -18,7 +18,7 @@ public class MainViewController2 extends UIViewController {
 
 	@Override
 	public void viewDidLoad() {
-		System.out.println(">>> Viejahsk djahkjshdk jahkjs kdjahkjs dkhaks kdjashdjw Did Load");
+		System.out.println(">>> View Did Load");
 
 		System.out.println(">>> " + getView());
 		
