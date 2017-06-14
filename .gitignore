@@ -1,3 +1,5 @@
 /build.properties
 /build.xml
 /bin/
+/.gradle/
+*.gradle
