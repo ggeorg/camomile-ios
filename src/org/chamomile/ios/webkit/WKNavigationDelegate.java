@@ -1,8 +1,5 @@
 package org.chamomile.ios.webkit;
 
-import static org.chamomile.ios.webkit.WKNavigationActionPolicy.WKNavigationActionPolicyAllow;
-import static org.chamomile.ios.webkit.WKNavigationResponsePolicy.WKNavigationResponsePolicyAllow;
-
 import org.chamomile.ios.foundation.NSError;
 
 /*-[
@@ -22,10 +19,8 @@ public abstract class WKNavigationDelegate {
 	// Initiating the Navigation
 	// ---------------------------------------------------------------------
 
-	protected void didCommitNavigation(WKWebView webView, WKNavigation navigation) {
-		System.out.println("=========> didCommitNavigation: " + webView);
-	}
-
+	protected abstract void didCommitNavigation(WKWebView webView, WKNavigation navigation);
+	
 	@SuppressWarnings("unused")
 	private void didCommitNavigation(Object webView, Object navigation) {
 		final WKWebView _webView = WKWebView.wrap(webView);
@@ -36,13 +31,11 @@ public abstract class WKNavigationDelegate {
 	/*-[
 	- (void)webView:(WKWebView *)webView 
 		didCommitNavigation:(WKNavigation *)navigation {
-		[self didCommitNavigationWithId:webView withId:navigation];
-	}
+			[self didCommitNavigationWithId:webView withId:navigation];
+		}
 	]-*/
 
-	protected void didStartProvisionalNavigation(WKWebView webView, WKNavigation navigation) {
-		System.out.println("=========> didStartProvisionalNavigation: " + webView);
-	}
+	protected abstract void didStartProvisionalNavigation(WKWebView webView, WKNavigation navigation);
 
 	@SuppressWarnings("unused")
 	private void didStartProvisionalNavigation(Object webView, Object navigation) {
@@ -54,18 +47,16 @@ public abstract class WKNavigationDelegate {
 	/*-[
 	- (void)webView:(WKWebView *)webView 
 		didStartProvisionalNavigation:(WKNavigation *)navigation {
-		[self didStartProvisionalNavigationWithId:webView withId:navigation];
-	}
+			[self didStartProvisionalNavigationWithId:webView withId:navigation];
+		}
 	]-*/;
 
 	// ---------------------------------------------------------------------
 	// Responding to Server Actions
 	// ---------------------------------------------------------------------
 
-	protected void didReceiveServerRedirectForProvisionalNavigation(WKWebView webView, WKNavigation navigation) {
-		System.out.println("=========> didReceiveServerRedirectForProvisionalNavigation: " + webView);
-	}
-
+	protected abstract void didReceiveServerRedirectForProvisionalNavigation(WKWebView webView, WKNavigation navigation);
+	
 	@SuppressWarnings("unused")
 	private void didReceiveServerRedirectForProvisionalNavigation(Object webView, Object navigation) {
 		final WKWebView _webView = WKWebView.wrap(webView);
@@ -76,8 +67,8 @@ public abstract class WKNavigationDelegate {
 	/*-[
 	- (void)webView:(WKWebView *)webView 
 		didReceiveServerRedirectForProvisionalNavigation:(WKNavigation *)navigation {
-		[self didReceiveServerRedirectForProvisionalNavigationWithId:webView withId:navigation];
-	}
+			[self didReceiveServerRedirectForProvisionalNavigationWithId:webView withId:navigation];
+		}
 	]-*/;
 
 	// ---------------------------------------------------------------------
@@ -88,18 +79,16 @@ public abstract class WKNavigationDelegate {
 	- (void)webView:(WKWebView *)webView 
 		didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge 
 		completionHandler:(void (^)(NSURLSessionAuthChallengeDisposition disposition, NSURLCredential *credential))completionHandler {
-		NSLog(@">>>>>>>>>>>>>> didReceiveAuthenticationChallenge");
-		completionHandler(YES);
-	}
+			NSLog(@">>>>>>>>>>>>>> didReceiveAuthenticationChallenge");
+			completionHandler(YES);
+		}
 	-*/;
 
 	// ---------------------------------------------------------------------
 	// Reacting to Errors
 	// ---------------------------------------------------------------------
 
-	protected void didFailNavigation(WKWebView webView, WKNavigation navigation, NSError error) {
-		System.out.println("=========> didReceiveServerRedirectForProvisionalNavigation: " + error);
-	}
+	protected abstract void didFailNavigation(WKWebView webView, WKNavigation navigation, NSError error);
 
 	@SuppressWarnings("unused")
 	private void didFailNavigation(Object webView, Object navigation, Object error) {
@@ -113,13 +102,11 @@ public abstract class WKNavigationDelegate {
 	- (void)webView:(WKWebView *)webView 
 		didFailNavigation:(WKNavigation *)navigation 
 		withError:(NSError *)error {
-		[self didFailNavigationWithId:webView withId:navigation withId:error];
-	}
+			[self didFailNavigationWithId:webView withId:navigation withId:error];
+		}
 	]-*/;
 
-	protected void didFailProvisionalNavigation(WKWebView webView, WKNavigation navigation, NSError error) {
-		System.out.println("=========> didReceiveServerRedirectForProvisionalNavigation: " + error);
-	}
+	protected abstract void didFailProvisionalNavigation(WKWebView webView, WKNavigation navigation, NSError error);
 
 	@SuppressWarnings("unused")
 	private void didFailProvisionalNavigation(Object webView, Object navigation, Object error) {
@@ -133,17 +120,15 @@ public abstract class WKNavigationDelegate {
 	- (void)webView:(WKWebView *)webView 
 		didFailProvisionalNavigation:(WKNavigation *)navigation 
 	  	withError:(NSError *)error {
-		[self didFailProvisionalNavigationWithId:webView withId:navigation withId:error];
-	}
+			[self didFailProvisionalNavigationWithId:webView withId:navigation withId:error];
+		}
 	]-*/;
 
 	// ---------------------------------------------------------------------
 	// Tracking Load Progress
 	// ---------------------------------------------------------------------
 
-	protected void webViewWebContentProcessDidTerminate(WKWebView webView) {
-		System.out.println("=========> webViewWebContentProcessDidTerminate: " + webView);
-	}
+	protected abstract void webViewWebContentProcessDidTerminate(WKWebView webView);
 
 	@SuppressWarnings("unused")
 	private void webViewWebContentProcessDidTerminate(Object webView) {
@@ -153,13 +138,11 @@ public abstract class WKNavigationDelegate {
 
 	/*-[
 	- (void)webViewWebContentProcessDidTerminate:(WKWebView *)webView {
-	 	[self webViewWebContentProcessDidTerminateWithId:webView];
-	}
+		 	[self webViewWebContentProcessDidTerminateWithId:webView];
+		}
 	]-*/;
 
-	protected void didFinishNavigation(WKWebView webView, WKNavigation navigation) {
-		System.out.println("=========> didFinishNavigation: " + webView);
-	}
+	protected abstract void didFinishNavigation(WKWebView webView, WKNavigation navigation);
 
 	@SuppressWarnings("unused")
 	private void didFinishNavigation(Object webView, Object navigation) {
@@ -171,19 +154,16 @@ public abstract class WKNavigationDelegate {
 	/*-[
 	- (void)webView:(WKWebView*)webView
 	 	didFinishNavigation:(WKNavigation*)navigation {
-	 	[self didFinishNavigationWithId:webView withId:navigation];
-	}
+		 	[self didFinishNavigationWithId:webView withId:navigation];
+		}
 	]-*/;
 
 	// ---------------------------------------------------------------------
 	// Permitting Navigation
 	// ---------------------------------------------------------------------
 
-	protected /* WKNavigationActionPolicy */int decidePolicyForNavigationAction(WKWebView webView,
-			WKNavigationAction navigationAction) {
-		System.out.println("=========> decidePolicyForNavigationAction: " + webView);
-		return WKNavigationActionPolicyAllow;
-	}
+	protected abstract /* WKNavigationActionPolicy */int decidePolicyForNavigationAction(WKWebView webView,
+			WKNavigationAction navigationAction);
 
 	@SuppressWarnings("unused")
 	private int decidePolicyForNavigationAction(Object webView, Object navigationAction) {
@@ -196,15 +176,12 @@ public abstract class WKNavigationDelegate {
 	- (void)webView:(WKWebView *)webView 
 		decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction 
 		decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
-		decisionHandler([self decidePolicyForNavigationActionWithId:webView withId:navigationAction]);
-	}
+			decisionHandler([self decidePolicyForNavigationActionWithId:webView withId:navigationAction]);
+		}
 	]-*/;
 
-	protected /* WKNavigationResponsePolicy */int decidePolicyForNavigationResponse(WKWebView webView,
-			WKNavigationResponse navigationResponse) {
-		System.out.println("=========> didFinishNavigation: " + webView);
-		return WKNavigationResponsePolicyAllow;
-	}
+	protected abstract /* WKNavigationResponsePolicy */int decidePolicyForNavigationResponse(WKWebView webView,
+			WKNavigationResponse navigationResponse);
 
 	@SuppressWarnings("unused")
 	private int decidePolicyForNavigationResponse(Object webView, Object navigationResponse) {
@@ -217,8 +194,8 @@ public abstract class WKNavigationDelegate {
 	- (void)webView:(WKWebView *)webView 
 		decidePolicyForNavigationResponse:(WKNavigationResponse *)navigationResponse 
 		decisionHandler:(void (^)(WKNavigationResponsePolicy))decisionHandler {
-		decisionHandler([self decidePolicyForNavigationResponseWithId:webView withId:navigationResponse]);
-	}
+			decisionHandler([self decidePolicyForNavigationResponseWithId:webView withId:navigationResponse]);
+		}
 	]-*/
 
 }

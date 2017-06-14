@@ -2,12 +2,19 @@ package j2objc;
 
 import static org.chamomile.ios.uikit.UIViewAutoresizing.UIViewAutoresizingFlexibleHeight;
 import static org.chamomile.ios.uikit.UIViewAutoresizing.UIViewAutoresizingFlexibleWidth;
+import static org.chamomile.ios.webkit.WKNavigationActionPolicy.WKNavigationActionPolicyAllow;
+import static org.chamomile.ios.webkit.WKNavigationResponsePolicy.WKNavigationResponsePolicyAllow;
 
 import java.util.function.Consumer;
 
+import org.chamomile.ios.foundation.NSError;
 import org.chamomile.ios.uikit.UIViewController;
 import org.chamomile.ios.webkit.WKFrameInfo;
+import org.chamomile.ios.webkit.WKNavigation;
+import org.chamomile.ios.webkit.WKNavigationAction;
 import org.chamomile.ios.webkit.WKNavigationDelegate;
+import org.chamomile.ios.webkit.WKNavigationResponse;
+import org.chamomile.ios.webkit.WKNavigationResponsePolicy;
 import org.chamomile.ios.webkit.WKUIDelegate;
 import org.chamomile.ios.webkit.WKWebView;
 
@@ -24,9 +31,60 @@ public class MainViewController extends UIViewController {
 
 		WKWebView webView = new WKWebView(getView().getFrame());
 		webView.setNavigationDelegate(navigationDelegate = new WKNavigationDelegate() {
-		});
-		webView.setUIDelegate(UIDelegate = new WKUIDelegate() {
 
+			@Override
+			protected void didCommitNavigation(WKWebView webView, WKNavigation navigation) {
+				System.out.println("=========> didCommitNavigation: " + webView);
+			}
+
+			@Override
+			protected void didStartProvisionalNavigation(WKWebView webView, WKNavigation navigation) {
+				System.out.println("=========> didStartProvisionalNavigation: " + webView);
+			}
+
+			@Override
+			protected void didReceiveServerRedirectForProvisionalNavigation(WKWebView webView,
+					WKNavigation navigation) {
+				System.out.println("=========> didReceiveServerRedirectForProvisionalNavigation: " + webView);
+			}
+
+			@Override
+			protected void didFailNavigation(WKWebView webView, WKNavigation navigation, NSError error) {
+				System.out.println("=========> didReceiveServerRedirectForProvisionalNavigation: " + error);
+			}
+
+			@Override
+			protected void didFailProvisionalNavigation(WKWebView webView, WKNavigation navigation, NSError error) {
+				System.out.println("=========> didReceiveServerRedirectForProvisionalNavigation: " + error);
+			}
+
+			@Override
+			protected void webViewWebContentProcessDidTerminate(WKWebView webView) {
+				System.out.println("=========> webViewWebContentProcessDidTerminate: " + webView);
+			}
+
+			@Override
+			protected void didFinishNavigation(WKWebView webView, WKNavigation navigation) {
+				System.out.println("=========> didFinishNavigation: " + webView);
+			}
+
+			@Override
+			protected int decidePolicyForNavigationAction(WKWebView webView,
+					WKNavigationAction navigationAction) {
+				System.out.println("=========> decidePolicyForNavigationAction: " + webView);
+				return WKNavigationActionPolicyAllow;
+			}
+
+			@Override
+			protected int decidePolicyForNavigationResponse(WKWebView webView,
+					WKNavigationResponse navigationResponse) {
+				System.out.println("=========> didFinishNavigation: " + webView);
+				return WKNavigationResponsePolicyAllow;
+			}
+		});
+
+		webView.setUIDelegate(UIDelegate = new WKUIDelegate() {
+			
 			@Override
 			protected void runJavaScriptAlertPanel(WKWebView webView, String message, WKFrameInfo frame,
 					Consumer<Void> completionHandler) {
