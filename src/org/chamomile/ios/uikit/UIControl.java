@@ -10,8 +10,9 @@ package org.chamomile.ios.uikit;
  * 
  * @author ggeorg
  */
-public abstract class UIControl extends UIView implements UIControlEvents {
-
+public abstract class UIControl extends UIView
+		implements UIControlEvents, UIControlState {
+	
 	protected UIControl(Object nativeObj) {
 		super(nativeObj);
 	}
@@ -23,7 +24,7 @@ public abstract class UIControl extends UIView implements UIControlEvents {
 			          forControlEvents:controlEvents];
 	]-*/;
 	//@formatter:on
-	
+
 	//@formatter:off
 	public native void removeTarget(UIEventHandler handler, int controlEvents) /*-[
 		[[self getNativeObj] removeTarget:handler action:@selector(onEvent:event:)

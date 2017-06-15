@@ -123,5 +123,6 @@ public class MainViewController extends UIViewController {
 		webView.evaluateJavaScript("alert('alert');");
 		webView.evaluateJavaScript("confirm('confirm');");
 		webView.evaluateJavaScript("prompt('prompt');");
+		webView.evaluateJavaScript("{l:8, p:7}");
 	}
 }

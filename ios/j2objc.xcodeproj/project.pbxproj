@@ -11,47 +11,6 @@
 		CCA16B171EE820AC00E52145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA16B161EE820AC00E52145 /* AppDelegate.m */; };
 		CCA16B1F1EE820AC00E52145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA16B1E1EE820AC00E52145 /* Assets.xcassets */; };
 		CCA16B331EE83FCC00E52145 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA16B321EE83FCC00E52145 /* libiconv.tbd */; };
-		CCDF753E1EF1788700EDCF25 /* MainViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF750C1EF1788700EDCF25 /* MainViewController.java */; };
-		CCDF753F1EF1788700EDCF25 /* MainViewController2.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF750D1EF1788700EDCF25 /* MainViewController2.java */; };
-		CCDF75401EF1788700EDCF25 /* CGPoint.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75131EF1788700EDCF25 /* CGPoint.java */; };
-		CCDF75411EF1788700EDCF25 /* CGRect.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75141EF1788700EDCF25 /* CGRect.java */; };
-		CCDF75421EF1788700EDCF25 /* CGSize.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75151EF1788700EDCF25 /* CGSize.java */; };
-		CCDF75431EF1788700EDCF25 /* NSError.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75171EF1788700EDCF25 /* NSError.java */; };
-		CCDF75441EF1788700EDCF25 /* NSObject.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75181EF1788700EDCF25 /* NSObject.java */; };
-		CCDF75451EF1788700EDCF25 /* NSObjectArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75191EF1788700EDCF25 /* NSObjectArray.java */; };
-		CCDF75461EF1788700EDCF25 /* NSURL.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751A1EF1788700EDCF25 /* NSURL.java */; };
-		CCDF75471EF1788700EDCF25 /* NSURLRequest.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751B1EF1788700EDCF25 /* NSURLRequest.java */; };
-		CCDF75481EF1788700EDCF25 /* NSLayoutConstraint.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751D1EF1788700EDCF25 /* NSLayoutConstraint.java */; };
-		CCDF75491EF1788700EDCF25 /* NSLayoutConstraintArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751E1EF1788700EDCF25 /* NSLayoutConstraintArray.java */; };
-		CCDF754A1EF1788700EDCF25 /* NSLayoutDimension.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF751F1EF1788700EDCF25 /* NSLayoutDimension.java */; };
-		CCDF754B1EF1788700EDCF25 /* NSLayoutXAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75201EF1788700EDCF25 /* NSLayoutXAxisAnchor.java */; };
-		CCDF754C1EF1788700EDCF25 /* NSLayoutYAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75211EF1788700EDCF25 /* NSLayoutYAxisAnchor.java */; };
-		CCDF754D1EF1788700EDCF25 /* UIButton.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75221EF1788700EDCF25 /* UIButton.java */; };
-		CCDF754E1EF1788700EDCF25 /* UIColor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75231EF1788700EDCF25 /* UIColor.java */; };
-		CCDF754F1EF1788700EDCF25 /* UIControl.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75241EF1788700EDCF25 /* UIControl.java */; };
-		CCDF75501EF1788700EDCF25 /* UIControlEvents.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75251EF1788700EDCF25 /* UIControlEvents.java */; };
-		CCDF75511EF1788700EDCF25 /* UIEvent.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75261EF1788700EDCF25 /* UIEvent.java */; };
-		CCDF75521EF1788700EDCF25 /* UIEventHandler.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75271EF1788700EDCF25 /* UIEventHandler.java */; };
-		CCDF75531EF1788700EDCF25 /* UILabel.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75281EF1788700EDCF25 /* UILabel.java */; };
-		CCDF75541EF1788700EDCF25 /* UIResponder.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75291EF1788700EDCF25 /* UIResponder.java */; };
-		CCDF75551EF1788700EDCF25 /* UITextField.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752A1EF1788700EDCF25 /* UITextField.java */; };
-		CCDF75561EF1788700EDCF25 /* UIView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752B1EF1788700EDCF25 /* UIView.java */; };
-		CCDF75571EF1788700EDCF25 /* UIViewArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752C1EF1788700EDCF25 /* UIViewArray.java */; };
-		CCDF75581EF1788700EDCF25 /* UIViewAutoresizing.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752D1EF1788700EDCF25 /* UIViewAutoresizing.java */; };
-		CCDF75591EF1788700EDCF25 /* UIViewContentMode.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752E1EF1788700EDCF25 /* UIViewContentMode.java */; };
-		CCDF755A1EF1788700EDCF25 /* UIViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF752F1EF1788700EDCF25 /* UIViewController.java */; };
-		CCDF755B1EF1788700EDCF25 /* UIViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75311EF1788700EDCF25 /* UIViewControllerBase.m */; };
-		CCDF755C1EF1788700EDCF25 /* WKFrameInfo.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75331EF1788700EDCF25 /* WKFrameInfo.java */; };
-		CCDF755D1EF1788700EDCF25 /* WKNavigation.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75341EF1788700EDCF25 /* WKNavigation.java */; };
-		CCDF755E1EF1788700EDCF25 /* WKNavigationAction.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75351EF1788700EDCF25 /* WKNavigationAction.java */; };
-		CCDF755F1EF1788700EDCF25 /* WKNavigationActionPolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75361EF1788700EDCF25 /* WKNavigationActionPolicy.java */; };
-		CCDF75601EF1788700EDCF25 /* WKNavigationDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75371EF1788700EDCF25 /* WKNavigationDelegate.java */; };
-		CCDF75611EF1788700EDCF25 /* WKNavigationResponse.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75381EF1788700EDCF25 /* WKNavigationResponse.java */; };
-		CCDF75621EF1788700EDCF25 /* WKNavigationResponsePolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF75391EF1788700EDCF25 /* WKNavigationResponsePolicy.java */; };
-		CCDF75631EF1788700EDCF25 /* WKSecurityOrigin.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753A1EF1788700EDCF25 /* WKSecurityOrigin.java */; };
-		CCDF75641EF1788700EDCF25 /* WKUIDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753B1EF1788700EDCF25 /* WKUIDelegate.java */; };
-		CCDF75651EF1788700EDCF25 /* WKWebView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753C1EF1788700EDCF25 /* WKWebView.java */; };
-		CCDF75661EF1788700EDCF25 /* WKWebViewConfiguration.java in Sources */ = {isa = PBXBuildFile; fileRef = CCDF753D1EF1788700EDCF25 /* WKWebViewConfiguration.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -76,48 +35,6 @@
 		CCA16B1E1EE820AC00E52145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA16B231EE820AC00E52145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA16B321EE83FCC00E52145 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		CCDF750C1EF1788700EDCF25 /* MainViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController.java; sourceTree = "<group>"; };
-		CCDF750D1EF1788700EDCF25 /* MainViewController2.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController2.java; sourceTree = "<group>"; };
-		CCDF75131EF1788700EDCF25 /* CGPoint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGPoint.java; sourceTree = "<group>"; };
-		CCDF75141EF1788700EDCF25 /* CGRect.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGRect.java; sourceTree = "<group>"; };
-		CCDF75151EF1788700EDCF25 /* CGSize.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGSize.java; sourceTree = "<group>"; };
-		CCDF75171EF1788700EDCF25 /* NSError.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSError.java; sourceTree = "<group>"; };
-		CCDF75181EF1788700EDCF25 /* NSObject.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObject.java; sourceTree = "<group>"; };
-		CCDF75191EF1788700EDCF25 /* NSObjectArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObjectArray.java; sourceTree = "<group>"; };
-		CCDF751A1EF1788700EDCF25 /* NSURL.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURL.java; sourceTree = "<group>"; };
-		CCDF751B1EF1788700EDCF25 /* NSURLRequest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURLRequest.java; sourceTree = "<group>"; };
-		CCDF751D1EF1788700EDCF25 /* NSLayoutConstraint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraint.java; sourceTree = "<group>"; };
-		CCDF751E1EF1788700EDCF25 /* NSLayoutConstraintArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraintArray.java; sourceTree = "<group>"; };
-		CCDF751F1EF1788700EDCF25 /* NSLayoutDimension.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutDimension.java; sourceTree = "<group>"; };
-		CCDF75201EF1788700EDCF25 /* NSLayoutXAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutXAxisAnchor.java; sourceTree = "<group>"; };
-		CCDF75211EF1788700EDCF25 /* NSLayoutYAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutYAxisAnchor.java; sourceTree = "<group>"; };
-		CCDF75221EF1788700EDCF25 /* UIButton.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButton.java; sourceTree = "<group>"; };
-		CCDF75231EF1788700EDCF25 /* UIColor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIColor.java; sourceTree = "<group>"; };
-		CCDF75241EF1788700EDCF25 /* UIControl.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControl.java; sourceTree = "<group>"; };
-		CCDF75251EF1788700EDCF25 /* UIControlEvents.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControlEvents.java; sourceTree = "<group>"; };
-		CCDF75261EF1788700EDCF25 /* UIEvent.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEvent.java; sourceTree = "<group>"; };
-		CCDF75271EF1788700EDCF25 /* UIEventHandler.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEventHandler.java; sourceTree = "<group>"; };
-		CCDF75281EF1788700EDCF25 /* UILabel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UILabel.java; sourceTree = "<group>"; };
-		CCDF75291EF1788700EDCF25 /* UIResponder.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIResponder.java; sourceTree = "<group>"; };
-		CCDF752A1EF1788700EDCF25 /* UITextField.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UITextField.java; sourceTree = "<group>"; };
-		CCDF752B1EF1788700EDCF25 /* UIView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIView.java; sourceTree = "<group>"; };
-		CCDF752C1EF1788700EDCF25 /* UIViewArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewArray.java; sourceTree = "<group>"; };
-		CCDF752D1EF1788700EDCF25 /* UIViewAutoresizing.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewAutoresizing.java; sourceTree = "<group>"; };
-		CCDF752E1EF1788700EDCF25 /* UIViewContentMode.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewContentMode.java; sourceTree = "<group>"; };
-		CCDF752F1EF1788700EDCF25 /* UIViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewController.java; sourceTree = "<group>"; };
-		CCDF75301EF1788700EDCF25 /* UIViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerBase.h; sourceTree = "<group>"; };
-		CCDF75311EF1788700EDCF25 /* UIViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerBase.m; sourceTree = "<group>"; };
-		CCDF75331EF1788700EDCF25 /* WKFrameInfo.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKFrameInfo.java; sourceTree = "<group>"; };
-		CCDF75341EF1788700EDCF25 /* WKNavigation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigation.java; sourceTree = "<group>"; };
-		CCDF75351EF1788700EDCF25 /* WKNavigationAction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationAction.java; sourceTree = "<group>"; };
-		CCDF75361EF1788700EDCF25 /* WKNavigationActionPolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationActionPolicy.java; sourceTree = "<group>"; };
-		CCDF75371EF1788700EDCF25 /* WKNavigationDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationDelegate.java; sourceTree = "<group>"; };
-		CCDF75381EF1788700EDCF25 /* WKNavigationResponse.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponse.java; sourceTree = "<group>"; };
-		CCDF75391EF1788700EDCF25 /* WKNavigationResponsePolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponsePolicy.java; sourceTree = "<group>"; };
-		CCDF753A1EF1788700EDCF25 /* WKSecurityOrigin.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKSecurityOrigin.java; sourceTree = "<group>"; };
-		CCDF753B1EF1788700EDCF25 /* WKUIDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKUIDelegate.java; sourceTree = "<group>"; };
-		CCDF753C1EF1788700EDCF25 /* WKWebView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebView.java; sourceTree = "<group>"; };
-		CCDF753D1EF1788700EDCF25 /* WKWebViewConfiguration.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebViewConfiguration.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,131 +98,8 @@
 		CCA16C0D1EE9186700E52145 /* java */ = {
 			isa = PBXGroup;
 			children = (
-				CCDF750A1EF1788700EDCF25 /* src */,
 			);
 			name = java;
-			sourceTree = "<group>";
-		};
-		CCDF750A1EF1788700EDCF25 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF750B1EF1788700EDCF25 /* j2objc */,
-				CCDF750E1EF1788700EDCF25 /* org */,
-			);
-			name = src;
-			path = ../src;
-			sourceTree = "<group>";
-		};
-		CCDF750B1EF1788700EDCF25 /* j2objc */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF750C1EF1788700EDCF25 /* MainViewController.java */,
-				CCDF750D1EF1788700EDCF25 /* MainViewController2.java */,
-			);
-			path = j2objc;
-			sourceTree = "<group>";
-		};
-		CCDF750E1EF1788700EDCF25 /* org */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF750F1EF1788700EDCF25 /* chamomile */,
-			);
-			path = org;
-			sourceTree = "<group>";
-		};
-		CCDF750F1EF1788700EDCF25 /* chamomile */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF75101EF1788700EDCF25 /* ios */,
-			);
-			path = chamomile;
-			sourceTree = "<group>";
-		};
-		CCDF75101EF1788700EDCF25 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF75111EF1788700EDCF25 /* core */,
-				CCDF75161EF1788700EDCF25 /* foundation */,
-				CCDF751C1EF1788700EDCF25 /* uikit */,
-				CCDF75321EF1788700EDCF25 /* webkit */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		CCDF75111EF1788700EDCF25 /* core */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF75121EF1788700EDCF25 /* graphics */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		CCDF75121EF1788700EDCF25 /* graphics */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF75131EF1788700EDCF25 /* CGPoint.java */,
-				CCDF75141EF1788700EDCF25 /* CGRect.java */,
-				CCDF75151EF1788700EDCF25 /* CGSize.java */,
-			);
-			path = graphics;
-			sourceTree = "<group>";
-		};
-		CCDF75161EF1788700EDCF25 /* foundation */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF75171EF1788700EDCF25 /* NSError.java */,
-				CCDF75181EF1788700EDCF25 /* NSObject.java */,
-				CCDF75191EF1788700EDCF25 /* NSObjectArray.java */,
-				CCDF751A1EF1788700EDCF25 /* NSURL.java */,
-				CCDF751B1EF1788700EDCF25 /* NSURLRequest.java */,
-			);
-			path = foundation;
-			sourceTree = "<group>";
-		};
-		CCDF751C1EF1788700EDCF25 /* uikit */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF751D1EF1788700EDCF25 /* NSLayoutConstraint.java */,
-				CCDF751E1EF1788700EDCF25 /* NSLayoutConstraintArray.java */,
-				CCDF751F1EF1788700EDCF25 /* NSLayoutDimension.java */,
-				CCDF75201EF1788700EDCF25 /* NSLayoutXAxisAnchor.java */,
-				CCDF75211EF1788700EDCF25 /* NSLayoutYAxisAnchor.java */,
-				CCDF75221EF1788700EDCF25 /* UIButton.java */,
-				CCDF75231EF1788700EDCF25 /* UIColor.java */,
-				CCDF75241EF1788700EDCF25 /* UIControl.java */,
-				CCDF75251EF1788700EDCF25 /* UIControlEvents.java */,
-				CCDF75261EF1788700EDCF25 /* UIEvent.java */,
-				CCDF75271EF1788700EDCF25 /* UIEventHandler.java */,
-				CCDF75281EF1788700EDCF25 /* UILabel.java */,
-				CCDF75291EF1788700EDCF25 /* UIResponder.java */,
-				CCDF752A1EF1788700EDCF25 /* UITextField.java */,
-				CCDF752B1EF1788700EDCF25 /* UIView.java */,
-				CCDF752C1EF1788700EDCF25 /* UIViewArray.java */,
-				CCDF752D1EF1788700EDCF25 /* UIViewAutoresizing.java */,
-				CCDF752E1EF1788700EDCF25 /* UIViewContentMode.java */,
-				CCDF752F1EF1788700EDCF25 /* UIViewController.java */,
-				CCDF75301EF1788700EDCF25 /* UIViewControllerBase.h */,
-				CCDF75311EF1788700EDCF25 /* UIViewControllerBase.m */,
-			);
-			path = uikit;
-			sourceTree = "<group>";
-		};
-		CCDF75321EF1788700EDCF25 /* webkit */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF75331EF1788700EDCF25 /* WKFrameInfo.java */,
-				CCDF75341EF1788700EDCF25 /* WKNavigation.java */,
-				CCDF75351EF1788700EDCF25 /* WKNavigationAction.java */,
-				CCDF75361EF1788700EDCF25 /* WKNavigationActionPolicy.java */,
-				CCDF75371EF1788700EDCF25 /* WKNavigationDelegate.java */,
-				CCDF75381EF1788700EDCF25 /* WKNavigationResponse.java */,
-				CCDF75391EF1788700EDCF25 /* WKNavigationResponsePolicy.java */,
-				CCDF753A1EF1788700EDCF25 /* WKSecurityOrigin.java */,
-				CCDF753B1EF1788700EDCF25 /* WKUIDelegate.java */,
-				CCDF753C1EF1788700EDCF25 /* WKWebView.java */,
-				CCDF753D1EF1788700EDCF25 /* WKWebViewConfiguration.java */,
-			);
-			path = webkit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,49 +173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCDF75541EF1788700EDCF25 /* UIResponder.java in Sources */,
-				CCDF75421EF1788700EDCF25 /* CGSize.java in Sources */,
-				CCDF753E1EF1788700EDCF25 /* MainViewController.java in Sources */,
-				CCDF75591EF1788700EDCF25 /* UIViewContentMode.java in Sources */,
-				CCDF75581EF1788700EDCF25 /* UIViewAutoresizing.java in Sources */,
-				CCDF75481EF1788700EDCF25 /* NSLayoutConstraint.java in Sources */,
-				CCDF75521EF1788700EDCF25 /* UIEventHandler.java in Sources */,
-				CCDF75651EF1788700EDCF25 /* WKWebView.java in Sources */,
-				CCDF75471EF1788700EDCF25 /* NSURLRequest.java in Sources */,
 				CCA16B171EE820AC00E52145 /* AppDelegate.m in Sources */,
-				CCDF755B1EF1788700EDCF25 /* UIViewControllerBase.m in Sources */,
-				CCDF75611EF1788700EDCF25 /* WKNavigationResponse.java in Sources */,
-				CCDF75661EF1788700EDCF25 /* WKWebViewConfiguration.java in Sources */,
-				CCDF754F1EF1788700EDCF25 /* UIControl.java in Sources */,
-				CCDF75571EF1788700EDCF25 /* UIViewArray.java in Sources */,
-				CCDF753F1EF1788700EDCF25 /* MainViewController2.java in Sources */,
-				CCDF75501EF1788700EDCF25 /* UIControlEvents.java in Sources */,
-				CCDF75441EF1788700EDCF25 /* NSObject.java in Sources */,
-				CCDF75531EF1788700EDCF25 /* UILabel.java in Sources */,
-				CCDF755E1EF1788700EDCF25 /* WKNavigationAction.java in Sources */,
-				CCDF75621EF1788700EDCF25 /* WKNavigationResponsePolicy.java in Sources */,
-				CCDF755C1EF1788700EDCF25 /* WKFrameInfo.java in Sources */,
-				CCDF754A1EF1788700EDCF25 /* NSLayoutDimension.java in Sources */,
-				CCDF75461EF1788700EDCF25 /* NSURL.java in Sources */,
 				CCA16B141EE820AC00E52145 /* main.m in Sources */,
-				CCDF755A1EF1788700EDCF25 /* UIViewController.java in Sources */,
-				CCDF75491EF1788700EDCF25 /* NSLayoutConstraintArray.java in Sources */,
-				CCDF754E1EF1788700EDCF25 /* UIColor.java in Sources */,
-				CCDF755D1EF1788700EDCF25 /* WKNavigation.java in Sources */,
-				CCDF75401EF1788700EDCF25 /* CGPoint.java in Sources */,
-				CCDF75451EF1788700EDCF25 /* NSObjectArray.java in Sources */,
-				CCDF75551EF1788700EDCF25 /* UITextField.java in Sources */,
-				CCDF75601EF1788700EDCF25 /* WKNavigationDelegate.java in Sources */,
-				CCDF75631EF1788700EDCF25 /* WKSecurityOrigin.java in Sources */,
-				CCDF75511EF1788700EDCF25 /* UIEvent.java in Sources */,
-				CCDF755F1EF1788700EDCF25 /* WKNavigationActionPolicy.java in Sources */,
-				CCDF754D1EF1788700EDCF25 /* UIButton.java in Sources */,
-				CCDF75411EF1788700EDCF25 /* CGRect.java in Sources */,
-				CCDF754C1EF1788700EDCF25 /* NSLayoutYAxisAnchor.java in Sources */,
-				CCDF75641EF1788700EDCF25 /* WKUIDelegate.java in Sources */,
-				CCDF75431EF1788700EDCF25 /* NSError.java in Sources */,
-				CCDF75561EF1788700EDCF25 /* UIView.java in Sources */,
-				CCDF754B1EF1788700EDCF25 /* NSLayoutXAxisAnchor.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
