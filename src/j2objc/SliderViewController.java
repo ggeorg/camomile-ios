@@ -9,6 +9,7 @@ import org.chamomile.ios.uikit.UIControl;
 import org.chamomile.ios.uikit.UIEvent;
 import org.chamomile.ios.uikit.UIEventHandler;
 import org.chamomile.ios.uikit.UISlider;
+import org.chamomile.ios.uikit.UIStepper;
 import org.chamomile.ios.uikit.UISwitch;
 import org.chamomile.ios.uikit.UIView;
 import org.chamomile.ios.uikit.UIViewController;
@@ -50,5 +51,10 @@ public class SliderViewController extends UIViewController {
 		UISwitch _switch = new UISwitch(10F, 100F, viewRect.size.width - 20F, 20F);
 		_switch.setOn(!true);
 		view.addSubview(_switch);
+		
+		UIStepper stepper = new UIStepper(10F, 150F, viewRect.size.width - 20F, 20F);
+		stepper.setContinuous(true);
+		System.out.println(stepper.isContinuous());
+		view.addSubview(stepper);
 	}
 }
