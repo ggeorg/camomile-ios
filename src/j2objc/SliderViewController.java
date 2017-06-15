@@ -9,6 +9,7 @@ import org.chamomile.ios.uikit.UIControl;
 import org.chamomile.ios.uikit.UIEvent;
 import org.chamomile.ios.uikit.UIEventHandler;
 import org.chamomile.ios.uikit.UISlider;
+import org.chamomile.ios.uikit.UISwitch;
 import org.chamomile.ios.uikit.UIView;
 import org.chamomile.ios.uikit.UIViewController;
 
@@ -44,5 +45,9 @@ public class SliderViewController extends UIViewController {
 
 		// view.setAutoresizesSubviews(true);
 		view.addSubview(slider);
+		
+
+		UISwitch s = new UISwitch();
+		view.addSubview(s);
 	}
 }

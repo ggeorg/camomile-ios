@@ -27,7 +27,7 @@ public class UISlider extends UIControl {
 	}
 
 	public UISlider() {
-		this(createNativeObj());
+		super(createNativeObj());
 	}
 
 	public UISlider(CGRect frame) {
