@@ -223,11 +223,14 @@ public class UIView extends UIResponder implements UIViewAutoresizing, UIViewCon
 	//@formatter:on
 	]-*/;
 
-	public native void setFrame(float[] frame) /*-[
+	public void setFrame(CGRect cgRect) {
+		setFrame(cgRect.origin.x, cgRect.origin.y, cgRect.size.width, cgRect.size.height);
+	}
+
+	public native void setFrame(float x, float y, float width, float height) /*-[
 	//@formatter:off
 		UIView *_self = [self getNativeObj];
-		_self.frame = CGRectMake([frame floatAtIndex:0], [frame floatAtIndex:1], 
-			[frame floatAtIndex:2], [frame floatAtIndex:3]);
+		_self.frame = CGRectMake(x, y, width, height);
 	//@formatter:on
 	]-*/;
 

@@ -1,5 +1,7 @@
 package org.chamomile.ios.uikit;
 
+import org.chamomile.ios.foundation.NSObject;
+
 /*-[
  #import <UIKit/UIKit.h>
  ]-*/
@@ -11,6 +13,18 @@ package org.chamomile.ios.uikit;
  * @author ggeorg
  */
 public class UILabel extends UIView {
+
+	public static final UILabel wrap(Object nativeObj) {
+		if (nativeObj != null) {
+			final UILabel wrapper = NSObject.nativeToJava(nativeObj);
+			return (wrapper != null) ? wrapper : new UILabel(nativeObj);
+		}
+		return null;
+	}
+
+	protected UILabel(Object nativeObj) {
+		super(nativeObj);
+	}
 
 	public UILabel() {
 		super(createNativeObj());

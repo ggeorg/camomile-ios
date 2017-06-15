@@ -25,4 +25,12 @@ public class UIImage extends NSObject {
 		setNativeObj(nativeObj);
 	}
 	
+	public static UIImage imageNamed(String name) {
+		return UIImage.wrap(imageNamedImpl(name));
+	}
+
+	private static native Object imageNamedImpl(String name) /*-[
+		return [UIImage imageNamed:name];
+	]-*/;
+	
 }
