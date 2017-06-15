@@ -34,4 +34,16 @@ public class UIColor extends NSObject {
 		return [[UIColor alloc] initWithRed:red green:green blue:blue alpha:alpha];
 	//@formatter:on
 	]-*/;
+	
+	// ---
+
+	public static UIColor whiteColor() {
+		return wrap(whiteColorImpl());
+	}
+
+	private static native Object whiteColorImpl() /*-[
+	//@formatter:off
+		return [UIColor whiteColor];
+	//@formatter:on
+	]-*/;
 }

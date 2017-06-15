@@ -22,11 +22,11 @@ public class ImageViewController extends UIViewController {
 		CGRect viewRect = view.getFrame();
 
 		UIImageView img = new UIImageView(UIImage.imageNamed("images.jpg"));
-
+/*
 		img.setFrame(viewRect);
 		img.setAutoresizingMask(UIViewAutoresizingFlexibleWidth 
 				| UIViewAutoresizingFlexibleHeight);
-		
+*/
 		view.addSubview(img);
 	}
 }
