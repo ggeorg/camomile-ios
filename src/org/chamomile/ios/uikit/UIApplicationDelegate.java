@@ -12,21 +12,19 @@ package org.chamomile.ios.uikit;
  */
 public abstract class UIApplicationDelegate /*<UIApplicationDelegate>*/ {
 	
-	protected abstract boolean didFinishLaunching(UIApplication application, UIWindow window);
+	protected abstract boolean didFinishLaunching(UIApplication application);
 	
 	@SuppressWarnings("unused")
-	private boolean didFinishLaunching(Object application, Object window) {
+	private boolean didFinishLaunching(Object application) {
 		UIApplication _application = UIApplication.wrap(application);
-		UIWindow _window = UIWindow.wrap(window);
-		return didFinishLaunching(_application, _window);
+		return didFinishLaunching(_application);
 	}
 
 	/*-[
 	//@formatter:off
 	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	    // Override point for customization after application launch.
-	    return [self didFinishLaunchingWithId:application withId:window];
+	    return [self didFinishLaunchingWithId:application];
 	}
 
 	- (void)applicationWillResignActive:(UIApplication *)application {

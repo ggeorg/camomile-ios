@@ -7,62 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC19A6DA1EF32A8C0064758F /* ImageViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A69B1EF32A8C0064758F /* ImageViewController.java */; };
+		CC19A6DB1EF32A8C0064758F /* MainViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A69C1EF32A8C0064758F /* MainViewController.java */; };
+		CC19A6DC1EF32A8C0064758F /* MainViewController2.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A69D1EF32A8C0064758F /* MainViewController2.java */; };
+		CC19A6DD1EF32A8C0064758F /* MyAppDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A69E1EF32A8C0064758F /* MyAppDelegate.java */; };
+		CC19A6DE1EF32A8C0064758F /* SliderViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A69F1EF32A8C0064758F /* SliderViewController.java */; };
+		CC19A6DF1EF32A8C0064758F /* CGPoint.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6A51EF32A8C0064758F /* CGPoint.java */; };
+		CC19A6E01EF32A8C0064758F /* CGRect.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6A61EF32A8C0064758F /* CGRect.java */; };
+		CC19A6E11EF32A8C0064758F /* CGSize.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6A71EF32A8C0064758F /* CGSize.java */; };
+		CC19A6E21EF32A8C0064758F /* NSError.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6A91EF32A8C0064758F /* NSError.java */; };
+		CC19A6E31EF32A8C0064758F /* NSObject.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6AA1EF32A8C0064758F /* NSObject.java */; };
+		CC19A6E41EF32A8C0064758F /* NSObjectArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6AB1EF32A8C0064758F /* NSObjectArray.java */; };
+		CC19A6E51EF32A8C0064758F /* NSURL.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6AC1EF32A8C0064758F /* NSURL.java */; };
+		CC19A6E61EF32A8C0064758F /* NSURLRequest.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6AD1EF32A8C0064758F /* NSURLRequest.java */; };
+		CC19A6E71EF32A8C0064758F /* NSLayoutConstraint.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6AF1EF32A8C0064758F /* NSLayoutConstraint.java */; };
+		CC19A6E81EF32A8C0064758F /* NSLayoutConstraintArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B01EF32A8C0064758F /* NSLayoutConstraintArray.java */; };
+		CC19A6E91EF32A8C0064758F /* NSLayoutDimension.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B11EF32A8C0064758F /* NSLayoutDimension.java */; };
+		CC19A6EA1EF32A8C0064758F /* NSLayoutXAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B21EF32A8C0064758F /* NSLayoutXAxisAnchor.java */; };
+		CC19A6EB1EF32A8C0064758F /* NSLayoutYAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B31EF32A8C0064758F /* NSLayoutYAxisAnchor.java */; };
+		CC19A6EC1EF32A8C0064758F /* UIApplication.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B41EF32A8C0064758F /* UIApplication.java */; };
+		CC19A6ED1EF32A8C0064758F /* UIApplicationDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B51EF32A8C0064758F /* UIApplicationDelegate.java */; };
+		CC19A6EE1EF32A8C0064758F /* UIButton.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B61EF32A8C0064758F /* UIButton.java */; };
+		CC19A6EF1EF32A8C0064758F /* UIColor.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B71EF32A8C0064758F /* UIColor.java */; };
+		CC19A6F01EF32A8C0064758F /* UIControl.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B81EF32A8C0064758F /* UIControl.java */; };
+		CC19A6F11EF32A8C0064758F /* UIControlEvents.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6B91EF32A8C0064758F /* UIControlEvents.java */; };
+		CC19A6F21EF32A8C0064758F /* UIControlState.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6BA1EF32A8C0064758F /* UIControlState.java */; };
+		CC19A6F31EF32A8C0064758F /* UIEvent.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6BB1EF32A8C0064758F /* UIEvent.java */; };
+		CC19A6F41EF32A8C0064758F /* UIEventHandler.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6BC1EF32A8C0064758F /* UIEventHandler.java */; };
+		CC19A6F51EF32A8C0064758F /* UIImage.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6BD1EF32A8C0064758F /* UIImage.java */; };
+		CC19A6F61EF32A8C0064758F /* UIImageView.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6BE1EF32A8C0064758F /* UIImageView.java */; };
+		CC19A6F71EF32A8C0064758F /* UILabel.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6BF1EF32A8C0064758F /* UILabel.java */; };
+		CC19A6F81EF32A8C0064758F /* UIResponder.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C01EF32A8C0064758F /* UIResponder.java */; };
+		CC19A6F91EF32A8C0064758F /* UIScreen.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C11EF32A8C0064758F /* UIScreen.java */; };
+		CC19A6FA1EF32A8C0064758F /* UISlider.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C21EF32A8C0064758F /* UISlider.java */; };
+		CC19A6FB1EF32A8C0064758F /* UIStepper.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C31EF32A8C0064758F /* UIStepper.java */; };
+		CC19A6FC1EF32A8C0064758F /* UISwitch.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C41EF32A8C0064758F /* UISwitch.java */; };
+		CC19A6FD1EF32A8C0064758F /* UITextField.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C51EF32A8C0064758F /* UITextField.java */; };
+		CC19A6FE1EF32A8C0064758F /* UIView.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C61EF32A8C0064758F /* UIView.java */; };
+		CC19A6FF1EF32A8C0064758F /* UIViewArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C71EF32A8C0064758F /* UIViewArray.java */; };
+		CC19A7001EF32A8C0064758F /* UIViewAutoresizing.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C81EF32A8C0064758F /* UIViewAutoresizing.java */; };
+		CC19A7011EF32A8C0064758F /* UIViewContentMode.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6C91EF32A8C0064758F /* UIViewContentMode.java */; };
+		CC19A7021EF32A8C0064758F /* UIViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6CA1EF32A8C0064758F /* UIViewController.java */; };
+		CC19A7031EF32A8C0064758F /* UIViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6CC1EF32A8C0064758F /* UIViewControllerBase.m */; };
+		CC19A7041EF32A8C0064758F /* UIWindow.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6CD1EF32A8C0064758F /* UIWindow.java */; };
+		CC19A7051EF32A8C0064758F /* WKFrameInfo.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6CF1EF32A8C0064758F /* WKFrameInfo.java */; };
+		CC19A7061EF32A8C0064758F /* WKNavigation.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D01EF32A8C0064758F /* WKNavigation.java */; };
+		CC19A7071EF32A8C0064758F /* WKNavigationAction.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D11EF32A8C0064758F /* WKNavigationAction.java */; };
+		CC19A7081EF32A8C0064758F /* WKNavigationActionPolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D21EF32A8C0064758F /* WKNavigationActionPolicy.java */; };
+		CC19A7091EF32A8C0064758F /* WKNavigationDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D31EF32A8C0064758F /* WKNavigationDelegate.java */; };
+		CC19A70A1EF32A8C0064758F /* WKNavigationResponse.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D41EF32A8C0064758F /* WKNavigationResponse.java */; };
+		CC19A70B1EF32A8C0064758F /* WKNavigationResponsePolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D51EF32A8C0064758F /* WKNavigationResponsePolicy.java */; };
+		CC19A70C1EF32A8C0064758F /* WKSecurityOrigin.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D61EF32A8C0064758F /* WKSecurityOrigin.java */; };
+		CC19A70D1EF32A8C0064758F /* WKUIDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D71EF32A8C0064758F /* WKUIDelegate.java */; };
+		CC19A70E1EF32A8C0064758F /* WKWebView.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D81EF32A8C0064758F /* WKWebView.java */; };
+		CC19A70F1EF32A8C0064758F /* WKWebViewConfiguration.java in Sources */ = {isa = PBXBuildFile; fileRef = CC19A6D91EF32A8C0064758F /* WKWebViewConfiguration.java */; };
 		CCA16B141EE820AC00E52145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA16B131EE820AC00E52145 /* main.m */; };
 		CCA16B1F1EE820AC00E52145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA16B1E1EE820AC00E52145 /* Assets.xcassets */; };
 		CCA16B331EE83FCC00E52145 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA16B321EE83FCC00E52145 /* libiconv.tbd */; };
-		CCA66F5F1EF3165500202AB0 /* ImageViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F211EF3165500202AB0 /* ImageViewController.java */; };
-		CCA66F601EF3165500202AB0 /* MainViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F221EF3165500202AB0 /* MainViewController.java */; };
-		CCA66F611EF3165500202AB0 /* MainViewController2.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F231EF3165500202AB0 /* MainViewController2.java */; };
-		CCA66F621EF3165500202AB0 /* MyAppDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F241EF3165500202AB0 /* MyAppDelegate.java */; };
-		CCA66F631EF3165500202AB0 /* SliderViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F251EF3165500202AB0 /* SliderViewController.java */; };
-		CCA66F641EF3165500202AB0 /* CGPoint.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F2B1EF3165500202AB0 /* CGPoint.java */; };
-		CCA66F651EF3165500202AB0 /* CGRect.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F2C1EF3165500202AB0 /* CGRect.java */; };
-		CCA66F661EF3165500202AB0 /* CGSize.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F2D1EF3165500202AB0 /* CGSize.java */; };
-		CCA66F671EF3165500202AB0 /* NSError.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F2F1EF3165500202AB0 /* NSError.java */; };
-		CCA66F681EF3165500202AB0 /* NSObject.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F301EF3165500202AB0 /* NSObject.java */; };
-		CCA66F691EF3165500202AB0 /* NSObjectArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F311EF3165500202AB0 /* NSObjectArray.java */; };
-		CCA66F6A1EF3165500202AB0 /* NSURL.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F321EF3165500202AB0 /* NSURL.java */; };
-		CCA66F6B1EF3165500202AB0 /* NSURLRequest.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F331EF3165500202AB0 /* NSURLRequest.java */; };
-		CCA66F6C1EF3165500202AB0 /* NSLayoutConstraint.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F351EF3165500202AB0 /* NSLayoutConstraint.java */; };
-		CCA66F6D1EF3165500202AB0 /* NSLayoutConstraintArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F361EF3165500202AB0 /* NSLayoutConstraintArray.java */; };
-		CCA66F6E1EF3165500202AB0 /* NSLayoutDimension.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F371EF3165500202AB0 /* NSLayoutDimension.java */; };
-		CCA66F6F1EF3165500202AB0 /* NSLayoutXAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F381EF3165500202AB0 /* NSLayoutXAxisAnchor.java */; };
-		CCA66F701EF3165500202AB0 /* NSLayoutYAxisAnchor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F391EF3165500202AB0 /* NSLayoutYAxisAnchor.java */; };
-		CCA66F711EF3165500202AB0 /* UIApplication.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F3A1EF3165500202AB0 /* UIApplication.java */; };
-		CCA66F721EF3165500202AB0 /* UIApplicationDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F3B1EF3165500202AB0 /* UIApplicationDelegate.java */; };
-		CCA66F731EF3165500202AB0 /* UIButton.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F3C1EF3165500202AB0 /* UIButton.java */; };
-		CCA66F741EF3165500202AB0 /* UIColor.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F3D1EF3165500202AB0 /* UIColor.java */; };
-		CCA66F751EF3165500202AB0 /* UIControl.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F3E1EF3165500202AB0 /* UIControl.java */; };
-		CCA66F761EF3165500202AB0 /* UIControlEvents.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F3F1EF3165500202AB0 /* UIControlEvents.java */; };
-		CCA66F771EF3165500202AB0 /* UIControlState.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F401EF3165500202AB0 /* UIControlState.java */; };
-		CCA66F781EF3165500202AB0 /* UIEvent.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F411EF3165500202AB0 /* UIEvent.java */; };
-		CCA66F791EF3165500202AB0 /* UIEventHandler.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F421EF3165500202AB0 /* UIEventHandler.java */; };
-		CCA66F7A1EF3165500202AB0 /* UIImage.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F431EF3165500202AB0 /* UIImage.java */; };
-		CCA66F7B1EF3165500202AB0 /* UIImageView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F441EF3165500202AB0 /* UIImageView.java */; };
-		CCA66F7C1EF3165500202AB0 /* UILabel.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F451EF3165500202AB0 /* UILabel.java */; };
-		CCA66F7D1EF3165500202AB0 /* UIResponder.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F461EF3165500202AB0 /* UIResponder.java */; };
-		CCA66F7E1EF3165500202AB0 /* UISlider.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F471EF3165500202AB0 /* UISlider.java */; };
-		CCA66F7F1EF3165500202AB0 /* UIStepper.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F481EF3165500202AB0 /* UIStepper.java */; };
-		CCA66F801EF3165500202AB0 /* UISwitch.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F491EF3165500202AB0 /* UISwitch.java */; };
-		CCA66F811EF3165500202AB0 /* UITextField.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F4A1EF3165500202AB0 /* UITextField.java */; };
-		CCA66F821EF3165500202AB0 /* UIView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F4B1EF3165500202AB0 /* UIView.java */; };
-		CCA66F831EF3165500202AB0 /* UIViewArray.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F4C1EF3165500202AB0 /* UIViewArray.java */; };
-		CCA66F841EF3165500202AB0 /* UIViewAutoresizing.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F4D1EF3165500202AB0 /* UIViewAutoresizing.java */; };
-		CCA66F851EF3165500202AB0 /* UIViewContentMode.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F4E1EF3165500202AB0 /* UIViewContentMode.java */; };
-		CCA66F861EF3165500202AB0 /* UIViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F4F1EF3165500202AB0 /* UIViewController.java */; };
-		CCA66F871EF3165500202AB0 /* UIViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F511EF3165500202AB0 /* UIViewControllerBase.m */; };
-		CCA66F881EF3165500202AB0 /* UIWindow.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F521EF3165500202AB0 /* UIWindow.java */; };
-		CCA66F891EF3165500202AB0 /* WKFrameInfo.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F541EF3165500202AB0 /* WKFrameInfo.java */; };
-		CCA66F8A1EF3165500202AB0 /* WKNavigation.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F551EF3165500202AB0 /* WKNavigation.java */; };
-		CCA66F8B1EF3165500202AB0 /* WKNavigationAction.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F561EF3165500202AB0 /* WKNavigationAction.java */; };
-		CCA66F8C1EF3165500202AB0 /* WKNavigationActionPolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F571EF3165500202AB0 /* WKNavigationActionPolicy.java */; };
-		CCA66F8D1EF3165500202AB0 /* WKNavigationDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F581EF3165500202AB0 /* WKNavigationDelegate.java */; };
-		CCA66F8E1EF3165500202AB0 /* WKNavigationResponse.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F591EF3165500202AB0 /* WKNavigationResponse.java */; };
-		CCA66F8F1EF3165500202AB0 /* WKNavigationResponsePolicy.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5A1EF3165500202AB0 /* WKNavigationResponsePolicy.java */; };
-		CCA66F901EF3165500202AB0 /* WKSecurityOrigin.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5B1EF3165500202AB0 /* WKSecurityOrigin.java */; };
-		CCA66F911EF3165500202AB0 /* WKUIDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5C1EF3165500202AB0 /* WKUIDelegate.java */; };
-		CCA66F921EF3165500202AB0 /* WKWebView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5D1EF3165500202AB0 /* WKWebView.java */; };
-		CCA66F931EF3165500202AB0 /* WKWebViewConfiguration.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5E1EF3165500202AB0 /* WKWebViewConfiguration.java */; };
 		CCA66F971EF31E9900202AB0 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA66F961EF31E9900202AB0 /* images.jpg */; };
 /* End PBXBuildFile section */
 
@@ -81,65 +82,66 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		CC19A69B1EF32A8C0064758F /* ImageViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ImageViewController.java; sourceTree = "<group>"; };
+		CC19A69C1EF32A8C0064758F /* MainViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController.java; sourceTree = "<group>"; };
+		CC19A69D1EF32A8C0064758F /* MainViewController2.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController2.java; sourceTree = "<group>"; };
+		CC19A69E1EF32A8C0064758F /* MyAppDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MyAppDelegate.java; sourceTree = "<group>"; };
+		CC19A69F1EF32A8C0064758F /* SliderViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SliderViewController.java; sourceTree = "<group>"; };
+		CC19A6A51EF32A8C0064758F /* CGPoint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGPoint.java; sourceTree = "<group>"; };
+		CC19A6A61EF32A8C0064758F /* CGRect.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGRect.java; sourceTree = "<group>"; };
+		CC19A6A71EF32A8C0064758F /* CGSize.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGSize.java; sourceTree = "<group>"; };
+		CC19A6A91EF32A8C0064758F /* NSError.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSError.java; sourceTree = "<group>"; };
+		CC19A6AA1EF32A8C0064758F /* NSObject.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObject.java; sourceTree = "<group>"; };
+		CC19A6AB1EF32A8C0064758F /* NSObjectArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObjectArray.java; sourceTree = "<group>"; };
+		CC19A6AC1EF32A8C0064758F /* NSURL.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURL.java; sourceTree = "<group>"; };
+		CC19A6AD1EF32A8C0064758F /* NSURLRequest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURLRequest.java; sourceTree = "<group>"; };
+		CC19A6AF1EF32A8C0064758F /* NSLayoutConstraint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraint.java; sourceTree = "<group>"; };
+		CC19A6B01EF32A8C0064758F /* NSLayoutConstraintArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraintArray.java; sourceTree = "<group>"; };
+		CC19A6B11EF32A8C0064758F /* NSLayoutDimension.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutDimension.java; sourceTree = "<group>"; };
+		CC19A6B21EF32A8C0064758F /* NSLayoutXAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutXAxisAnchor.java; sourceTree = "<group>"; };
+		CC19A6B31EF32A8C0064758F /* NSLayoutYAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutYAxisAnchor.java; sourceTree = "<group>"; };
+		CC19A6B41EF32A8C0064758F /* UIApplication.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIApplication.java; sourceTree = "<group>"; };
+		CC19A6B51EF32A8C0064758F /* UIApplicationDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIApplicationDelegate.java; sourceTree = "<group>"; };
+		CC19A6B61EF32A8C0064758F /* UIButton.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButton.java; sourceTree = "<group>"; };
+		CC19A6B71EF32A8C0064758F /* UIColor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIColor.java; sourceTree = "<group>"; };
+		CC19A6B81EF32A8C0064758F /* UIControl.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControl.java; sourceTree = "<group>"; };
+		CC19A6B91EF32A8C0064758F /* UIControlEvents.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControlEvents.java; sourceTree = "<group>"; };
+		CC19A6BA1EF32A8C0064758F /* UIControlState.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControlState.java; sourceTree = "<group>"; };
+		CC19A6BB1EF32A8C0064758F /* UIEvent.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEvent.java; sourceTree = "<group>"; };
+		CC19A6BC1EF32A8C0064758F /* UIEventHandler.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEventHandler.java; sourceTree = "<group>"; };
+		CC19A6BD1EF32A8C0064758F /* UIImage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIImage.java; sourceTree = "<group>"; };
+		CC19A6BE1EF32A8C0064758F /* UIImageView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIImageView.java; sourceTree = "<group>"; };
+		CC19A6BF1EF32A8C0064758F /* UILabel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UILabel.java; sourceTree = "<group>"; };
+		CC19A6C01EF32A8C0064758F /* UIResponder.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIResponder.java; sourceTree = "<group>"; };
+		CC19A6C11EF32A8C0064758F /* UIScreen.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIScreen.java; sourceTree = "<group>"; };
+		CC19A6C21EF32A8C0064758F /* UISlider.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UISlider.java; sourceTree = "<group>"; };
+		CC19A6C31EF32A8C0064758F /* UIStepper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIStepper.java; sourceTree = "<group>"; };
+		CC19A6C41EF32A8C0064758F /* UISwitch.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UISwitch.java; sourceTree = "<group>"; };
+		CC19A6C51EF32A8C0064758F /* UITextField.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UITextField.java; sourceTree = "<group>"; };
+		CC19A6C61EF32A8C0064758F /* UIView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIView.java; sourceTree = "<group>"; };
+		CC19A6C71EF32A8C0064758F /* UIViewArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewArray.java; sourceTree = "<group>"; };
+		CC19A6C81EF32A8C0064758F /* UIViewAutoresizing.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewAutoresizing.java; sourceTree = "<group>"; };
+		CC19A6C91EF32A8C0064758F /* UIViewContentMode.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewContentMode.java; sourceTree = "<group>"; };
+		CC19A6CA1EF32A8C0064758F /* UIViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewController.java; sourceTree = "<group>"; };
+		CC19A6CB1EF32A8C0064758F /* UIViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerBase.h; sourceTree = "<group>"; };
+		CC19A6CC1EF32A8C0064758F /* UIViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerBase.m; sourceTree = "<group>"; };
+		CC19A6CD1EF32A8C0064758F /* UIWindow.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIWindow.java; sourceTree = "<group>"; };
+		CC19A6CF1EF32A8C0064758F /* WKFrameInfo.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKFrameInfo.java; sourceTree = "<group>"; };
+		CC19A6D01EF32A8C0064758F /* WKNavigation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigation.java; sourceTree = "<group>"; };
+		CC19A6D11EF32A8C0064758F /* WKNavigationAction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationAction.java; sourceTree = "<group>"; };
+		CC19A6D21EF32A8C0064758F /* WKNavigationActionPolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationActionPolicy.java; sourceTree = "<group>"; };
+		CC19A6D31EF32A8C0064758F /* WKNavigationDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationDelegate.java; sourceTree = "<group>"; };
+		CC19A6D41EF32A8C0064758F /* WKNavigationResponse.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponse.java; sourceTree = "<group>"; };
+		CC19A6D51EF32A8C0064758F /* WKNavigationResponsePolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponsePolicy.java; sourceTree = "<group>"; };
+		CC19A6D61EF32A8C0064758F /* WKSecurityOrigin.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKSecurityOrigin.java; sourceTree = "<group>"; };
+		CC19A6D71EF32A8C0064758F /* WKUIDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKUIDelegate.java; sourceTree = "<group>"; };
+		CC19A6D81EF32A8C0064758F /* WKWebView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebView.java; sourceTree = "<group>"; };
+		CC19A6D91EF32A8C0064758F /* WKWebViewConfiguration.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebViewConfiguration.java; sourceTree = "<group>"; };
 		CCA16B0F1EE820AC00E52145 /* j2objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = j2objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA16B131EE820AC00E52145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCA16B1E1EE820AC00E52145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA16B231EE820AC00E52145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA16B321EE83FCC00E52145 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		CCA66F211EF3165500202AB0 /* ImageViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ImageViewController.java; sourceTree = "<group>"; };
-		CCA66F221EF3165500202AB0 /* MainViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController.java; sourceTree = "<group>"; };
-		CCA66F231EF3165500202AB0 /* MainViewController2.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController2.java; sourceTree = "<group>"; };
-		CCA66F241EF3165500202AB0 /* MyAppDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MyAppDelegate.java; sourceTree = "<group>"; };
-		CCA66F251EF3165500202AB0 /* SliderViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SliderViewController.java; sourceTree = "<group>"; };
-		CCA66F2B1EF3165500202AB0 /* CGPoint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGPoint.java; sourceTree = "<group>"; };
-		CCA66F2C1EF3165500202AB0 /* CGRect.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGRect.java; sourceTree = "<group>"; };
-		CCA66F2D1EF3165500202AB0 /* CGSize.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CGSize.java; sourceTree = "<group>"; };
-		CCA66F2F1EF3165500202AB0 /* NSError.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSError.java; sourceTree = "<group>"; };
-		CCA66F301EF3165500202AB0 /* NSObject.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObject.java; sourceTree = "<group>"; };
-		CCA66F311EF3165500202AB0 /* NSObjectArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSObjectArray.java; sourceTree = "<group>"; };
-		CCA66F321EF3165500202AB0 /* NSURL.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURL.java; sourceTree = "<group>"; };
-		CCA66F331EF3165500202AB0 /* NSURLRequest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSURLRequest.java; sourceTree = "<group>"; };
-		CCA66F351EF3165500202AB0 /* NSLayoutConstraint.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraint.java; sourceTree = "<group>"; };
-		CCA66F361EF3165500202AB0 /* NSLayoutConstraintArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutConstraintArray.java; sourceTree = "<group>"; };
-		CCA66F371EF3165500202AB0 /* NSLayoutDimension.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutDimension.java; sourceTree = "<group>"; };
-		CCA66F381EF3165500202AB0 /* NSLayoutXAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutXAxisAnchor.java; sourceTree = "<group>"; };
-		CCA66F391EF3165500202AB0 /* NSLayoutYAxisAnchor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = NSLayoutYAxisAnchor.java; sourceTree = "<group>"; };
-		CCA66F3A1EF3165500202AB0 /* UIApplication.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIApplication.java; sourceTree = "<group>"; };
-		CCA66F3B1EF3165500202AB0 /* UIApplicationDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIApplicationDelegate.java; sourceTree = "<group>"; };
-		CCA66F3C1EF3165500202AB0 /* UIButton.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIButton.java; sourceTree = "<group>"; };
-		CCA66F3D1EF3165500202AB0 /* UIColor.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIColor.java; sourceTree = "<group>"; };
-		CCA66F3E1EF3165500202AB0 /* UIControl.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControl.java; sourceTree = "<group>"; };
-		CCA66F3F1EF3165500202AB0 /* UIControlEvents.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControlEvents.java; sourceTree = "<group>"; };
-		CCA66F401EF3165500202AB0 /* UIControlState.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIControlState.java; sourceTree = "<group>"; };
-		CCA66F411EF3165500202AB0 /* UIEvent.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEvent.java; sourceTree = "<group>"; };
-		CCA66F421EF3165500202AB0 /* UIEventHandler.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIEventHandler.java; sourceTree = "<group>"; };
-		CCA66F431EF3165500202AB0 /* UIImage.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIImage.java; sourceTree = "<group>"; };
-		CCA66F441EF3165500202AB0 /* UIImageView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIImageView.java; sourceTree = "<group>"; };
-		CCA66F451EF3165500202AB0 /* UILabel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UILabel.java; sourceTree = "<group>"; };
-		CCA66F461EF3165500202AB0 /* UIResponder.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIResponder.java; sourceTree = "<group>"; };
-		CCA66F471EF3165500202AB0 /* UISlider.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UISlider.java; sourceTree = "<group>"; };
-		CCA66F481EF3165500202AB0 /* UIStepper.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIStepper.java; sourceTree = "<group>"; };
-		CCA66F491EF3165500202AB0 /* UISwitch.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UISwitch.java; sourceTree = "<group>"; };
-		CCA66F4A1EF3165500202AB0 /* UITextField.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UITextField.java; sourceTree = "<group>"; };
-		CCA66F4B1EF3165500202AB0 /* UIView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIView.java; sourceTree = "<group>"; };
-		CCA66F4C1EF3165500202AB0 /* UIViewArray.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewArray.java; sourceTree = "<group>"; };
-		CCA66F4D1EF3165500202AB0 /* UIViewAutoresizing.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewAutoresizing.java; sourceTree = "<group>"; };
-		CCA66F4E1EF3165500202AB0 /* UIViewContentMode.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewContentMode.java; sourceTree = "<group>"; };
-		CCA66F4F1EF3165500202AB0 /* UIViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIViewController.java; sourceTree = "<group>"; };
-		CCA66F501EF3165500202AB0 /* UIViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerBase.h; sourceTree = "<group>"; };
-		CCA66F511EF3165500202AB0 /* UIViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerBase.m; sourceTree = "<group>"; };
-		CCA66F521EF3165500202AB0 /* UIWindow.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UIWindow.java; sourceTree = "<group>"; };
-		CCA66F541EF3165500202AB0 /* WKFrameInfo.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKFrameInfo.java; sourceTree = "<group>"; };
-		CCA66F551EF3165500202AB0 /* WKNavigation.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigation.java; sourceTree = "<group>"; };
-		CCA66F561EF3165500202AB0 /* WKNavigationAction.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationAction.java; sourceTree = "<group>"; };
-		CCA66F571EF3165500202AB0 /* WKNavigationActionPolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationActionPolicy.java; sourceTree = "<group>"; };
-		CCA66F581EF3165500202AB0 /* WKNavigationDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationDelegate.java; sourceTree = "<group>"; };
-		CCA66F591EF3165500202AB0 /* WKNavigationResponse.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponse.java; sourceTree = "<group>"; };
-		CCA66F5A1EF3165500202AB0 /* WKNavigationResponsePolicy.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKNavigationResponsePolicy.java; sourceTree = "<group>"; };
-		CCA66F5B1EF3165500202AB0 /* WKSecurityOrigin.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKSecurityOrigin.java; sourceTree = "<group>"; };
-		CCA66F5C1EF3165500202AB0 /* WKUIDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKUIDelegate.java; sourceTree = "<group>"; };
-		CCA66F5D1EF3165500202AB0 /* WKWebView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebView.java; sourceTree = "<group>"; };
-		CCA66F5E1EF3165500202AB0 /* WKWebViewConfiguration.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebViewConfiguration.java; sourceTree = "<group>"; };
 		CCA66F961EF31E9900202AB0 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC19A6991EF32A8C0064758F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A69A1EF32A8C0064758F /* j2objc */,
+				CC19A6A01EF32A8C0064758F /* org */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		CC19A69A1EF32A8C0064758F /* j2objc */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A69B1EF32A8C0064758F /* ImageViewController.java */,
+				CC19A69C1EF32A8C0064758F /* MainViewController.java */,
+				CC19A69D1EF32A8C0064758F /* MainViewController2.java */,
+				CC19A69E1EF32A8C0064758F /* MyAppDelegate.java */,
+				CC19A69F1EF32A8C0064758F /* SliderViewController.java */,
+			);
+			path = j2objc;
+			sourceTree = "<group>";
+		};
+		CC19A6A01EF32A8C0064758F /* org */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6A11EF32A8C0064758F /* chamomile */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		CC19A6A11EF32A8C0064758F /* chamomile */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6A21EF32A8C0064758F /* ios */,
+			);
+			path = chamomile;
+			sourceTree = "<group>";
+		};
+		CC19A6A21EF32A8C0064758F /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6A31EF32A8C0064758F /* core */,
+				CC19A6A81EF32A8C0064758F /* foundation */,
+				CC19A6AE1EF32A8C0064758F /* uikit */,
+				CC19A6CE1EF32A8C0064758F /* webkit */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		CC19A6A31EF32A8C0064758F /* core */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6A41EF32A8C0064758F /* graphics */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		CC19A6A41EF32A8C0064758F /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6A51EF32A8C0064758F /* CGPoint.java */,
+				CC19A6A61EF32A8C0064758F /* CGRect.java */,
+				CC19A6A71EF32A8C0064758F /* CGSize.java */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		CC19A6A81EF32A8C0064758F /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6A91EF32A8C0064758F /* NSError.java */,
+				CC19A6AA1EF32A8C0064758F /* NSObject.java */,
+				CC19A6AB1EF32A8C0064758F /* NSObjectArray.java */,
+				CC19A6AC1EF32A8C0064758F /* NSURL.java */,
+				CC19A6AD1EF32A8C0064758F /* NSURLRequest.java */,
+			);
+			path = foundation;
+			sourceTree = "<group>";
+		};
+		CC19A6AE1EF32A8C0064758F /* uikit */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6AF1EF32A8C0064758F /* NSLayoutConstraint.java */,
+				CC19A6B01EF32A8C0064758F /* NSLayoutConstraintArray.java */,
+				CC19A6B11EF32A8C0064758F /* NSLayoutDimension.java */,
+				CC19A6B21EF32A8C0064758F /* NSLayoutXAxisAnchor.java */,
+				CC19A6B31EF32A8C0064758F /* NSLayoutYAxisAnchor.java */,
+				CC19A6B41EF32A8C0064758F /* UIApplication.java */,
+				CC19A6B51EF32A8C0064758F /* UIApplicationDelegate.java */,
+				CC19A6B61EF32A8C0064758F /* UIButton.java */,
+				CC19A6B71EF32A8C0064758F /* UIColor.java */,
+				CC19A6B81EF32A8C0064758F /* UIControl.java */,
+				CC19A6B91EF32A8C0064758F /* UIControlEvents.java */,
+				CC19A6BA1EF32A8C0064758F /* UIControlState.java */,
+				CC19A6BB1EF32A8C0064758F /* UIEvent.java */,
+				CC19A6BC1EF32A8C0064758F /* UIEventHandler.java */,
+				CC19A6BD1EF32A8C0064758F /* UIImage.java */,
+				CC19A6BE1EF32A8C0064758F /* UIImageView.java */,
+				CC19A6BF1EF32A8C0064758F /* UILabel.java */,
+				CC19A6C01EF32A8C0064758F /* UIResponder.java */,
+				CC19A6C11EF32A8C0064758F /* UIScreen.java */,
+				CC19A6C21EF32A8C0064758F /* UISlider.java */,
+				CC19A6C31EF32A8C0064758F /* UIStepper.java */,
+				CC19A6C41EF32A8C0064758F /* UISwitch.java */,
+				CC19A6C51EF32A8C0064758F /* UITextField.java */,
+				CC19A6C61EF32A8C0064758F /* UIView.java */,
+				CC19A6C71EF32A8C0064758F /* UIViewArray.java */,
+				CC19A6C81EF32A8C0064758F /* UIViewAutoresizing.java */,
+				CC19A6C91EF32A8C0064758F /* UIViewContentMode.java */,
+				CC19A6CA1EF32A8C0064758F /* UIViewController.java */,
+				CC19A6CB1EF32A8C0064758F /* UIViewControllerBase.h */,
+				CC19A6CC1EF32A8C0064758F /* UIViewControllerBase.m */,
+				CC19A6CD1EF32A8C0064758F /* UIWindow.java */,
+			);
+			path = uikit;
+			sourceTree = "<group>";
+		};
+		CC19A6CE1EF32A8C0064758F /* webkit */ = {
+			isa = PBXGroup;
+			children = (
+				CC19A6CF1EF32A8C0064758F /* WKFrameInfo.java */,
+				CC19A6D01EF32A8C0064758F /* WKNavigation.java */,
+				CC19A6D11EF32A8C0064758F /* WKNavigationAction.java */,
+				CC19A6D21EF32A8C0064758F /* WKNavigationActionPolicy.java */,
+				CC19A6D31EF32A8C0064758F /* WKNavigationDelegate.java */,
+				CC19A6D41EF32A8C0064758F /* WKNavigationResponse.java */,
+				CC19A6D51EF32A8C0064758F /* WKNavigationResponsePolicy.java */,
+				CC19A6D61EF32A8C0064758F /* WKSecurityOrigin.java */,
+				CC19A6D71EF32A8C0064758F /* WKUIDelegate.java */,
+				CC19A6D81EF32A8C0064758F /* WKWebView.java */,
+				CC19A6D91EF32A8C0064758F /* WKWebViewConfiguration.java */,
+			);
+			path = webkit;
+			sourceTree = "<group>";
+		};
 		CCA16B061EE820AC00E52145 = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +340,7 @@
 		CCA16C0D1EE9186700E52145 /* java */ = {
 			isa = PBXGroup;
 			children = (
-				CCA66F1F1EF3165500202AB0 /* src */,
+				CC19A6991EF32A8C0064758F /* src */,
 			);
 			name = java;
 			sourceTree = "<group>";
@@ -214,140 +351,6 @@
 				CCA66F961EF31E9900202AB0 /* images.jpg */,
 			);
 			name = resources;
-			sourceTree = "<group>";
-		};
-		CCA66F1F1EF3165500202AB0 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F201EF3165500202AB0 /* j2objc */,
-				CCA66F261EF3165500202AB0 /* org */,
-			);
-			name = src;
-			path = ../src;
-			sourceTree = "<group>";
-		};
-		CCA66F201EF3165500202AB0 /* j2objc */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F211EF3165500202AB0 /* ImageViewController.java */,
-				CCA66F221EF3165500202AB0 /* MainViewController.java */,
-				CCA66F231EF3165500202AB0 /* MainViewController2.java */,
-				CCA66F241EF3165500202AB0 /* MyAppDelegate.java */,
-				CCA66F251EF3165500202AB0 /* SliderViewController.java */,
-			);
-			path = j2objc;
-			sourceTree = "<group>";
-		};
-		CCA66F261EF3165500202AB0 /* org */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F271EF3165500202AB0 /* chamomile */,
-			);
-			path = org;
-			sourceTree = "<group>";
-		};
-		CCA66F271EF3165500202AB0 /* chamomile */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F281EF3165500202AB0 /* ios */,
-			);
-			path = chamomile;
-			sourceTree = "<group>";
-		};
-		CCA66F281EF3165500202AB0 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F291EF3165500202AB0 /* core */,
-				CCA66F2E1EF3165500202AB0 /* foundation */,
-				CCA66F341EF3165500202AB0 /* uikit */,
-				CCA66F531EF3165500202AB0 /* webkit */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		CCA66F291EF3165500202AB0 /* core */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F2A1EF3165500202AB0 /* graphics */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		CCA66F2A1EF3165500202AB0 /* graphics */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F2B1EF3165500202AB0 /* CGPoint.java */,
-				CCA66F2C1EF3165500202AB0 /* CGRect.java */,
-				CCA66F2D1EF3165500202AB0 /* CGSize.java */,
-			);
-			path = graphics;
-			sourceTree = "<group>";
-		};
-		CCA66F2E1EF3165500202AB0 /* foundation */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F2F1EF3165500202AB0 /* NSError.java */,
-				CCA66F301EF3165500202AB0 /* NSObject.java */,
-				CCA66F311EF3165500202AB0 /* NSObjectArray.java */,
-				CCA66F321EF3165500202AB0 /* NSURL.java */,
-				CCA66F331EF3165500202AB0 /* NSURLRequest.java */,
-			);
-			path = foundation;
-			sourceTree = "<group>";
-		};
-		CCA66F341EF3165500202AB0 /* uikit */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F351EF3165500202AB0 /* NSLayoutConstraint.java */,
-				CCA66F361EF3165500202AB0 /* NSLayoutConstraintArray.java */,
-				CCA66F371EF3165500202AB0 /* NSLayoutDimension.java */,
-				CCA66F381EF3165500202AB0 /* NSLayoutXAxisAnchor.java */,
-				CCA66F391EF3165500202AB0 /* NSLayoutYAxisAnchor.java */,
-				CCA66F3A1EF3165500202AB0 /* UIApplication.java */,
-				CCA66F3B1EF3165500202AB0 /* UIApplicationDelegate.java */,
-				CCA66F3C1EF3165500202AB0 /* UIButton.java */,
-				CCA66F3D1EF3165500202AB0 /* UIColor.java */,
-				CCA66F3E1EF3165500202AB0 /* UIControl.java */,
-				CCA66F3F1EF3165500202AB0 /* UIControlEvents.java */,
-				CCA66F401EF3165500202AB0 /* UIControlState.java */,
-				CCA66F411EF3165500202AB0 /* UIEvent.java */,
-				CCA66F421EF3165500202AB0 /* UIEventHandler.java */,
-				CCA66F431EF3165500202AB0 /* UIImage.java */,
-				CCA66F441EF3165500202AB0 /* UIImageView.java */,
-				CCA66F451EF3165500202AB0 /* UILabel.java */,
-				CCA66F461EF3165500202AB0 /* UIResponder.java */,
-				CCA66F471EF3165500202AB0 /* UISlider.java */,
-				CCA66F481EF3165500202AB0 /* UIStepper.java */,
-				CCA66F491EF3165500202AB0 /* UISwitch.java */,
-				CCA66F4A1EF3165500202AB0 /* UITextField.java */,
-				CCA66F4B1EF3165500202AB0 /* UIView.java */,
-				CCA66F4C1EF3165500202AB0 /* UIViewArray.java */,
-				CCA66F4D1EF3165500202AB0 /* UIViewAutoresizing.java */,
-				CCA66F4E1EF3165500202AB0 /* UIViewContentMode.java */,
-				CCA66F4F1EF3165500202AB0 /* UIViewController.java */,
-				CCA66F501EF3165500202AB0 /* UIViewControllerBase.h */,
-				CCA66F511EF3165500202AB0 /* UIViewControllerBase.m */,
-				CCA66F521EF3165500202AB0 /* UIWindow.java */,
-			);
-			path = uikit;
-			sourceTree = "<group>";
-		};
-		CCA66F531EF3165500202AB0 /* webkit */ = {
-			isa = PBXGroup;
-			children = (
-				CCA66F541EF3165500202AB0 /* WKFrameInfo.java */,
-				CCA66F551EF3165500202AB0 /* WKNavigation.java */,
-				CCA66F561EF3165500202AB0 /* WKNavigationAction.java */,
-				CCA66F571EF3165500202AB0 /* WKNavigationActionPolicy.java */,
-				CCA66F581EF3165500202AB0 /* WKNavigationDelegate.java */,
-				CCA66F591EF3165500202AB0 /* WKNavigationResponse.java */,
-				CCA66F5A1EF3165500202AB0 /* WKNavigationResponsePolicy.java */,
-				CCA66F5B1EF3165500202AB0 /* WKSecurityOrigin.java */,
-				CCA66F5C1EF3165500202AB0 /* WKUIDelegate.java */,
-				CCA66F5D1EF3165500202AB0 /* WKWebView.java */,
-				CCA66F5E1EF3165500202AB0 /* WKWebViewConfiguration.java */,
-			);
-			path = webkit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,60 +425,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA66F861EF3165500202AB0 /* UIViewController.java in Sources */,
-				CCA66F841EF3165500202AB0 /* UIViewAutoresizing.java in Sources */,
-				CCA66F601EF3165500202AB0 /* MainViewController.java in Sources */,
-				CCA66F671EF3165500202AB0 /* NSError.java in Sources */,
-				CCA66F911EF3165500202AB0 /* WKUIDelegate.java in Sources */,
-				CCA66F5F1EF3165500202AB0 /* ImageViewController.java in Sources */,
-				CCA66F891EF3165500202AB0 /* WKFrameInfo.java in Sources */,
-				CCA66F8D1EF3165500202AB0 /* WKNavigationDelegate.java in Sources */,
-				CCA66F701EF3165500202AB0 /* NSLayoutYAxisAnchor.java in Sources */,
-				CCA66F611EF3165500202AB0 /* MainViewController2.java in Sources */,
-				CCA66F651EF3165500202AB0 /* CGRect.java in Sources */,
-				CCA66F631EF3165500202AB0 /* SliderViewController.java in Sources */,
-				CCA66F801EF3165500202AB0 /* UISwitch.java in Sources */,
-				CCA66F731EF3165500202AB0 /* UIButton.java in Sources */,
-				CCA66F6B1EF3165500202AB0 /* NSURLRequest.java in Sources */,
-				CCA66F641EF3165500202AB0 /* CGPoint.java in Sources */,
-				CCA66F7B1EF3165500202AB0 /* UIImageView.java in Sources */,
-				CCA66F6A1EF3165500202AB0 /* NSURL.java in Sources */,
-				CCA66F781EF3165500202AB0 /* UIEvent.java in Sources */,
-				CCA66F921EF3165500202AB0 /* WKWebView.java in Sources */,
-				CCA66F6F1EF3165500202AB0 /* NSLayoutXAxisAnchor.java in Sources */,
-				CCA66F791EF3165500202AB0 /* UIEventHandler.java in Sources */,
-				CCA66F681EF3165500202AB0 /* NSObject.java in Sources */,
-				CCA66F871EF3165500202AB0 /* UIViewControllerBase.m in Sources */,
-				CCA66F7D1EF3165500202AB0 /* UIResponder.java in Sources */,
-				CCA66F821EF3165500202AB0 /* UIView.java in Sources */,
-				CCA66F901EF3165500202AB0 /* WKSecurityOrigin.java in Sources */,
-				CCA66F761EF3165500202AB0 /* UIControlEvents.java in Sources */,
-				CCA66F741EF3165500202AB0 /* UIColor.java in Sources */,
-				CCA66F8E1EF3165500202AB0 /* WKNavigationResponse.java in Sources */,
-				CCA66F721EF3165500202AB0 /* UIApplicationDelegate.java in Sources */,
-				CCA66F851EF3165500202AB0 /* UIViewContentMode.java in Sources */,
-				CCA66F8A1EF3165500202AB0 /* WKNavigation.java in Sources */,
+				CC19A6FE1EF32A8C0064758F /* UIView.java in Sources */,
+				CC19A6FA1EF32A8C0064758F /* UISlider.java in Sources */,
+				CC19A70A1EF32A8C0064758F /* WKNavigationResponse.java in Sources */,
+				CC19A6DB1EF32A8C0064758F /* MainViewController.java in Sources */,
+				CC19A6E21EF32A8C0064758F /* NSError.java in Sources */,
+				CC19A6DA1EF32A8C0064758F /* ImageViewController.java in Sources */,
+				CC19A6EB1EF32A8C0064758F /* NSLayoutYAxisAnchor.java in Sources */,
+				CC19A6DC1EF32A8C0064758F /* MainViewController2.java in Sources */,
+				CC19A6E01EF32A8C0064758F /* CGRect.java in Sources */,
+				CC19A6DE1EF32A8C0064758F /* SliderViewController.java in Sources */,
+				CC19A70F1EF32A8C0064758F /* WKWebViewConfiguration.java in Sources */,
+				CC19A6EE1EF32A8C0064758F /* UIButton.java in Sources */,
+				CC19A6E61EF32A8C0064758F /* NSURLRequest.java in Sources */,
+				CC19A6DF1EF32A8C0064758F /* CGPoint.java in Sources */,
+				CC19A6F91EF32A8C0064758F /* UIScreen.java in Sources */,
+				CC19A7071EF32A8C0064758F /* WKNavigationAction.java in Sources */,
+				CC19A70D1EF32A8C0064758F /* WKUIDelegate.java in Sources */,
+				CC19A6F61EF32A8C0064758F /* UIImageView.java in Sources */,
+				CC19A6E51EF32A8C0064758F /* NSURL.java in Sources */,
+				CC19A6F31EF32A8C0064758F /* UIEvent.java in Sources */,
+				CC19A6EA1EF32A8C0064758F /* NSLayoutXAxisAnchor.java in Sources */,
+				CC19A6FD1EF32A8C0064758F /* UITextField.java in Sources */,
+				CC19A6F41EF32A8C0064758F /* UIEventHandler.java in Sources */,
+				CC19A6FC1EF32A8C0064758F /* UISwitch.java in Sources */,
+				CC19A7021EF32A8C0064758F /* UIViewController.java in Sources */,
+				CC19A6FB1EF32A8C0064758F /* UIStepper.java in Sources */,
+				CC19A70E1EF32A8C0064758F /* WKWebView.java in Sources */,
+				CC19A7051EF32A8C0064758F /* WKFrameInfo.java in Sources */,
+				CC19A6E31EF32A8C0064758F /* NSObject.java in Sources */,
+				CC19A7091EF32A8C0064758F /* WKNavigationDelegate.java in Sources */,
+				CC19A7041EF32A8C0064758F /* UIWindow.java in Sources */,
+				CC19A7031EF32A8C0064758F /* UIViewControllerBase.m in Sources */,
+				CC19A6F81EF32A8C0064758F /* UIResponder.java in Sources */,
+				CC19A6F11EF32A8C0064758F /* UIControlEvents.java in Sources */,
+				CC19A7081EF32A8C0064758F /* WKNavigationActionPolicy.java in Sources */,
+				CC19A6EF1EF32A8C0064758F /* UIColor.java in Sources */,
+				CC19A6ED1EF32A8C0064758F /* UIApplicationDelegate.java in Sources */,
 				CCA16B141EE820AC00E52145 /* main.m in Sources */,
-				CCA66F771EF3165500202AB0 /* UIControlState.java in Sources */,
-				CCA66F8F1EF3165500202AB0 /* WKNavigationResponsePolicy.java in Sources */,
-				CCA66F811EF3165500202AB0 /* UITextField.java in Sources */,
-				CCA66F7E1EF3165500202AB0 /* UISlider.java in Sources */,
-				CCA66F691EF3165500202AB0 /* NSObjectArray.java in Sources */,
-				CCA66F6C1EF3165500202AB0 /* NSLayoutConstraint.java in Sources */,
-				CCA66F661EF3165500202AB0 /* CGSize.java in Sources */,
-				CCA66F7C1EF3165500202AB0 /* UILabel.java in Sources */,
-				CCA66F8C1EF3165500202AB0 /* WKNavigationActionPolicy.java in Sources */,
-				CCA66F711EF3165500202AB0 /* UIApplication.java in Sources */,
-				CCA66F6E1EF3165500202AB0 /* NSLayoutDimension.java in Sources */,
-				CCA66F7F1EF3165500202AB0 /* UIStepper.java in Sources */,
-				CCA66F931EF3165500202AB0 /* WKWebViewConfiguration.java in Sources */,
-				CCA66F751EF3165500202AB0 /* UIControl.java in Sources */,
-				CCA66F621EF3165500202AB0 /* MyAppDelegate.java in Sources */,
-				CCA66F8B1EF3165500202AB0 /* WKNavigationAction.java in Sources */,
-				CCA66F7A1EF3165500202AB0 /* UIImage.java in Sources */,
-				CCA66F831EF3165500202AB0 /* UIViewArray.java in Sources */,
-				CCA66F881EF3165500202AB0 /* UIWindow.java in Sources */,
-				CCA66F6D1EF3165500202AB0 /* NSLayoutConstraintArray.java in Sources */,
+				CC19A6F21EF32A8C0064758F /* UIControlState.java in Sources */,
+				CC19A7001EF32A8C0064758F /* UIViewAutoresizing.java in Sources */,
+				CC19A6E41EF32A8C0064758F /* NSObjectArray.java in Sources */,
+				CC19A6E71EF32A8C0064758F /* NSLayoutConstraint.java in Sources */,
+				CC19A7061EF32A8C0064758F /* WKNavigation.java in Sources */,
+				CC19A6E11EF32A8C0064758F /* CGSize.java in Sources */,
+				CC19A7011EF32A8C0064758F /* UIViewContentMode.java in Sources */,
+				CC19A6F71EF32A8C0064758F /* UILabel.java in Sources */,
+				CC19A6EC1EF32A8C0064758F /* UIApplication.java in Sources */,
+				CC19A6E91EF32A8C0064758F /* NSLayoutDimension.java in Sources */,
+				CC19A70B1EF32A8C0064758F /* WKNavigationResponsePolicy.java in Sources */,
+				CC19A6F01EF32A8C0064758F /* UIControl.java in Sources */,
+				CC19A70C1EF32A8C0064758F /* WKSecurityOrigin.java in Sources */,
+				CC19A6FF1EF32A8C0064758F /* UIViewArray.java in Sources */,
+				CC19A6DD1EF32A8C0064758F /* MyAppDelegate.java in Sources */,
+				CC19A6F51EF32A8C0064758F /* UIImage.java in Sources */,
+				CC19A6E81EF32A8C0064758F /* NSLayoutConstraintArray.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
