@@ -38,4 +38,16 @@ public final class UIWindow extends UIView {
 		_self.rootViewController = _rootViewController;
 	//@formatter:on
 	]-*/;
+
+	// ---------------------------------------------------------------------
+	// Making Windows Key
+	// ---------------------------------------------------------------------
+	
+	public native void makeKeyAndVisible() /*-[
+	//@formatter:off
+		UIWindow *_self = [self getNativeObj];
+		[_self makeKeyAndVisible];
+	//@formatter:on
+	]-*/;
+
 }

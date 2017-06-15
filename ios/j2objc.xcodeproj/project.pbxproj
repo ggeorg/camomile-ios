@@ -10,7 +10,6 @@
 		CCA16B141EE820AC00E52145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA16B131EE820AC00E52145 /* main.m */; };
 		CCA16B1F1EE820AC00E52145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA16B1E1EE820AC00E52145 /* Assets.xcassets */; };
 		CCA16B331EE83FCC00E52145 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA16B321EE83FCC00E52145 /* libiconv.tbd */; };
-		CCA66E3C1EF2FD5F00202AB0 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA66E3B1EF2FD5F00202AB0 /* images.jpg */; };
 		CCA66F5F1EF3165500202AB0 /* ImageViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F211EF3165500202AB0 /* ImageViewController.java */; };
 		CCA66F601EF3165500202AB0 /* MainViewController.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F221EF3165500202AB0 /* MainViewController.java */; };
 		CCA66F611EF3165500202AB0 /* MainViewController2.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F231EF3165500202AB0 /* MainViewController2.java */; };
@@ -64,6 +63,7 @@
 		CCA66F911EF3165500202AB0 /* WKUIDelegate.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5C1EF3165500202AB0 /* WKUIDelegate.java */; };
 		CCA66F921EF3165500202AB0 /* WKWebView.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5D1EF3165500202AB0 /* WKWebView.java */; };
 		CCA66F931EF3165500202AB0 /* WKWebViewConfiguration.java in Sources */ = {isa = PBXBuildFile; fileRef = CCA66F5E1EF3165500202AB0 /* WKWebViewConfiguration.java */; };
+		CCA66F971EF31E9900202AB0 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCA66F961EF31E9900202AB0 /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -86,7 +86,6 @@
 		CCA16B1E1EE820AC00E52145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA16B231EE820AC00E52145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA16B321EE83FCC00E52145 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		CCA66E3B1EF2FD5F00202AB0 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../../../../Pictures/images.jpg; sourceTree = "<group>"; };
 		CCA66F211EF3165500202AB0 /* ImageViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ImageViewController.java; sourceTree = "<group>"; };
 		CCA66F221EF3165500202AB0 /* MainViewController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController.java; sourceTree = "<group>"; };
 		CCA66F231EF3165500202AB0 /* MainViewController2.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = MainViewController2.java; sourceTree = "<group>"; };
@@ -141,6 +140,7 @@
 		CCA66F5C1EF3165500202AB0 /* WKUIDelegate.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKUIDelegate.java; sourceTree = "<group>"; };
 		CCA66F5D1EF3165500202AB0 /* WKWebView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebView.java; sourceTree = "<group>"; };
 		CCA66F5E1EF3165500202AB0 /* WKWebViewConfiguration.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = WKWebViewConfiguration.java; sourceTree = "<group>"; };
+		CCA66F961EF31E9900202AB0 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,7 +211,7 @@
 		CCA66EAB1EF300DF00202AB0 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				CCA66E3B1EF2FD5F00202AB0 /* images.jpg */,
+				CCA66F961EF31E9900202AB0 /* images.jpg */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -411,7 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA16B1F1EE820AC00E52145 /* Assets.xcassets in Resources */,
-				CCA66E3C1EF2FD5F00202AB0 /* images.jpg in Resources */,
+				CCA66F971EF31E9900202AB0 /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

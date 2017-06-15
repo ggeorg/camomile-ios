@@ -26,10 +26,7 @@ public abstract class UIApplicationDelegate /*<UIApplicationDelegate>*/ {
 	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	    // Override point for customization after application launch.
-	    [self didFinishLaunchingWithId:application withId:window];
-	    
-	    [window makeKeyAndVisible];
-	    return YES;
+	    return [self didFinishLaunchingWithId:application withId:window];
 	}
 
 	- (void)applicationWillResignActive:(UIApplication *)application {

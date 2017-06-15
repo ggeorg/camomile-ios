@@ -14,8 +14,7 @@ public class MyAppDelegate extends UIApplicationDelegate {
         this.window = window;
         this.window.setRootViewController(new ImageViewController());
         this.window.setBackgroundColor(UIColor.whiteColor());
-        
-		System.out.println(">>>> " + window);
+        this.window.makeKeyAndVisible();
 		return true;
 	}
 
