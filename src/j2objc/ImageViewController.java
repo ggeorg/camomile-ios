@@ -1,5 +1,8 @@
 package j2objc;
 
+import static org.chamomile.ios.uikit.UIViewAutoresizing.UIViewAutoresizingFlexibleHeight;
+import static org.chamomile.ios.uikit.UIViewAutoresizing.UIViewAutoresizingFlexibleWidth;
+
 import org.chamomile.ios.core.graphics.CGRect;
 import org.chamomile.ios.uikit.UIEventHandler;
 import org.chamomile.ios.uikit.UIImage;
@@ -19,7 +22,10 @@ public class ImageViewController extends UIViewController {
 		CGRect viewRect = view.getFrame();
 
 		UIImageView img = new UIImageView(UIImage.imageNamed("images.jpg"));
+
 		img.setFrame(viewRect);
+		img.setAutoresizingMask(UIViewAutoresizingFlexibleWidth 
+				| UIViewAutoresizingFlexibleHeight);
 		
 		view.addSubview(img);
 	}

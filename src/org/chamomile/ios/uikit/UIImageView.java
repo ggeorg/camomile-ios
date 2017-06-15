@@ -2,6 +2,10 @@ package org.chamomile.ios.uikit;
 
 import org.chamomile.ios.foundation.NSObject;
 
+/*-[
+#import <UIKit/UIKit.h>
+ ]-*/
+
 public class UIImageView extends UIView {
 
 	public static final UIImageView wrap(Object nativeObj) {
@@ -29,7 +33,7 @@ public class UIImageView extends UIView {
 	private static native Object createNativeObj(UIImage image) /*-[
 	//@formatter:off
 		UIImage *_image = [image getNativeObj];
-		return [[UIImageView alloc] initWithImage:image];
+		return [[UIImageView alloc] initWithImage:_image];
 	//@formatter:on
 	]-*/;
 
@@ -43,14 +47,14 @@ public class UIImageView extends UIView {
 
 	private native Object getImageImpl() /*-[
 	//@formatter:off
-		UISlider *_self = [self getNativeObj];
+		UIImageView *_self = [self getNativeObj];
 		return _self.image;
 	//@formatter:on
 	]-*/;
 
 	public native void setImage(UIImage image) /*-[
 	//@formatter:off
-		UISlider *_self = [self getNativeObj];
+		UIImageView *_self = [self getNativeObj];
 		UIImage *_image = [image getNativeObj];
 		_self.image = _image;
 	//@formatter:on
