@@ -207,4 +207,114 @@ public class UISlider extends UIControl {
 		return [_self minimumTrackImageForState:state];
 	//@formatter:on
 	]-*/;
+
+	public native void setMinimumTrackImage(UIImage image, /* UIControlState */int state) /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		UIImage *_image = [image getNativeObj];
+		[_self setMinimumTrackImage:_image forState:state];
+	//@formatter:on
+	]-*/;
+
+	public UIColor getMaximumTrackTintColor() {
+		return UIColor.wrap(getMaximumTrackTintColorImpl());
+	}
+
+	private native Object getMaximumTrackTintColorImpl() /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		return _self.maximumTrackTintColor;
+	//@formatter:on
+	]-*/;
+
+	public native void setMaximumTrackTintColor(UIColor maximumTrackTintColor) /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		UIColor *_maximumTrackTintColor = [maximumTrackTintColor getNativeObj];
+		_self.maximumTrackTintColor = _maximumTrackTintColor;
+	//@formatter:on
+	]-*/;
+
+	public UIImage getCurrentMaximumTrackImage() {
+		return UIImage.wrap(getCurrentMaximumTrackImageImpl());
+	}
+
+	private native Object getCurrentMaximumTrackImageImpl() /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		return _self.currentMaximumTrackImage;
+	//@formatter:on
+	]-*/;
+
+	public UIImage getMaximumTrackImageForState(/* UIControlState */int state) {
+		return UIImage.wrap(getMaximumTrackImageForStateImpl(state));
+	}
+
+	private native Object getMaximumTrackImageForStateImpl(/* UIControlState */int state) /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		return [_self maximumTrackImageForState:state];
+	//@formatter:on
+	]-*/;
+
+	public native void setMaximumTrackImage(UIImage image, /* UIControlState */int state) /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		UIImage *_image = [image getNativeObj];
+		[_self setMaximumTrackImage:_image forState:state];
+	//@formatter:on
+	]-*/;
+
+	public UIColor getThumbTintColor() {
+		return UIColor.wrap(getThumbTintColorImpl());
+	}
+
+	private native Object getThumbTintColorImpl() /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		return _self.thumbTintColor;
+	//@formatter:on
+	]-*/;
+
+	public native void setThumbTintColor(UIColor thumbTintColor) /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		UIColor *_thumbTintColor = [thumbTintColor getNativeObj];
+		_self.thumbTintColor = _thumbTintColor;
+	//@formatter:on
+	]-*/;
+
+	public UIImage getCurrentThumbImage() {
+		return UIImage.wrap(getCurrentThumbImageImpl());
+	}
+
+	private native Object getCurrentThumbImageImpl() /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		return _self.currentThumbImage;
+	//@formatter:on
+	]-*/;
+
+	public UIImage getThumbImage(/* UIControlState */int state) {
+		return UIImage.wrap(getThumbImageImpl(state));
+	}
+
+	private native Object getThumbImageImpl(/* UIControlState */int state) /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		return [_self thumbImage:state];
+	//@formatter:on
+	]-*/;
+
+	public native void setThumbImage(UIImage image, /* UIControlState */int state) /*-[
+	//@formatter:off
+		UISlider *_self = [self getNativeObj];
+		UIImage *_image = [image getNativeObj];
+		[_self setThumbImage:_image forState:state];
+	//@formatter:on
+	]-*/;
+
+	// ---------------------------------------------------------------------
+	// TODO Overrides for Subclasses
+	// ---------------------------------------------------------------------
 }
