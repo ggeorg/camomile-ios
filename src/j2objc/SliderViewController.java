@@ -47,7 +47,8 @@ public class SliderViewController extends UIViewController {
 		view.addSubview(slider);
 		
 
-		UISwitch s = new UISwitch();
-		view.addSubview(s);
+		UISwitch _switch = new UISwitch(10F, 100F, viewRect.size.width - 20F, 20F);
+		_switch.setOn(!true);
+		view.addSubview(_switch);
 	}
 }
