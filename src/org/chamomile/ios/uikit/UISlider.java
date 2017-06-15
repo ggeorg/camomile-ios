@@ -302,7 +302,7 @@ public class UISlider extends UIControl {
 	private native Object getThumbImageImpl(/* UIControlState */int state) /*-[
 	//@formatter:off
 		UISlider *_self = [self getNativeObj];
-		return [_self thumbImage:state];
+		return [_self thumbImageForState:state];
 	//@formatter:on
 	]-*/;
 
