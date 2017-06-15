@@ -12,8 +12,16 @@ import org.chamomile.ios.foundation.NSObject;
  * @author ggeorg
  */
 public final class UIEvent extends NSObject {
+	
+	public static final UIEvent wrap(Object nativeObj) {
+		if (nativeObj != null) {
+			final UIEvent wrapper = NSObject.nativeToJava(nativeObj);
+			return (wrapper != null) ? wrapper : new UIEvent(nativeObj);
+		}
+		return null;
+	}
 
-	public UIEvent(Object nativeObj) {
+	private UIEvent(Object nativeObj) {
 		setNativeObj(nativeObj);
 	}
 

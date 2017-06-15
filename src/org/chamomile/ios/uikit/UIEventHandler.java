@@ -4,13 +4,12 @@ import org.chamomile.ios.foundation.NSObject;
 
 import com.google.j2objc.annotations.ObjectiveCName;
 
-public abstract class UIEventHandler {
+public abstract class UIEventHandler<T extends UIControl> {
 
 	@ObjectiveCName("onEvent:event:")
 	public final void _onEvent(Object sender, Object event) {
-		final UIEvent uiEvent = NSObject.nativeToJava(event);
-		onEvent(NSObject.nativeToJava(sender), uiEvent != null ? uiEvent : new UIEvent(event));
+		onEvent(NSObject.nativeToJava(sender), UIEvent.wrap(event));
 	}
 
-	public abstract void onEvent(UIControl sender, UIEvent event);
+	public abstract void onEvent(T sender, UIEvent event);
 }
