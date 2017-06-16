@@ -31,7 +31,7 @@ public class UISlider extends UIControl {
 	}
 
 	public UISlider(CGRect frame) {
-		super(createNativeObj(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height));
+		super(createNativeObj(frame));
 	}
 
 	public UISlider(float x, float y, float width, float height) {
@@ -43,6 +43,10 @@ public class UISlider extends UIControl {
 		return [[UISlider alloc] init];
 	//@formatter:on
 	]-*/;
+
+	private static Object createNativeObj(CGRect frame) {
+		return createNativeObj(frame.origin.x, frame.origin.y, frame.size.width, frame.size.height);
+	}
 
 	private static native Object createNativeObj(float x, float y, float width, float height) /*-[
 	//@formatter:off
