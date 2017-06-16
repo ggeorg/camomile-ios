@@ -40,7 +40,7 @@ public final class WKSecurityOrigin extends NSObject implements WKNavigationActi
 	public native int getPort() /*-[
 	//@formatter:off
 		WKSecurityOrigin *_self = [self getNativeObj];
-		return _self.port;
+		return (int)_self.port;
 	//@formatter:on
 	]-*/;
 	
