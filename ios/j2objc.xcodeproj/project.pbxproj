@@ -381,7 +381,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "VeraCloud Inc";
+				ORGANIZATIONNAME = "Chamomile Org";
 				TargetAttributes = {
 					CCA16B0E1EE820AC00E52145 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -592,7 +592,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "${J2OBJC_HOME}/lib";
 				OTHER_LDFLAGS = "-ljre_emul";
-				PRODUCT_BUNDLE_IDENTIFIER = VeraCloud.j2objc;
+				PRODUCT_BUNDLE_IDENTIFIER = Chamomile.j2objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -614,7 +614,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "${J2OBJC_HOME}/lib";
 				OTHER_LDFLAGS = "-ljre_emul";
-				PRODUCT_BUNDLE_IDENTIFIER = VeraCloud.j2objc;
+				PRODUCT_BUNDLE_IDENTIFIER = Chamomile.j2objc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
