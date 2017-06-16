@@ -105,14 +105,14 @@ public class WKWebView extends UIView {
 	public native void setNavigationDelegate(WKNavigationDelegate navigationDelegate) /*-[
 	//@formatter:off
 		WKWebView *_self = [self getNativeObj];
-		_self.navigationDelegate = navigationDelegate;
+		_self.navigationDelegate = (id<WKNavigationDelegate>) navigationDelegate;
 	//@formatter:on
 	]-*/;
 	
 	public native void setUIDelegate(WKUIDelegate UIDelegate) /*-[
 	//@formatter:off
 		WKWebView *_self = [self getNativeObj];
-		_self.UIDelegate = UIDelegate;
+		_self.UIDelegate = (id<WKUIDelegate>) UIDelegate;
 	//@formatter:on
 	]-*/;
 
